@@ -1,4 +1,4 @@
-.blend1
-.obj
-.mtl
-.fbx
+*.blend1
+*.obj
+*.mtl
+*.fbx
