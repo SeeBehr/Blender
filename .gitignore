@@ -1,4 +1,7 @@
-.blend1
-.obj
-.mtl
-.fbx
+*.blend1
+*.obj
+*.mtl
+*.fbx
+*.avi
+*.jpg
+*.exr
