@@ -1,0 +1,4415 @@
+1
+00:00:00.010 --> 00:00:03.500 
+In this video we'll be sculpting a human
+head from scratch.
+
+2
+00:00:03.690 --> 00:00:08.200 
+We'll start with a UV sphere and then
+turning it step by step into a human
+
+3
+00:00:08.210 --> 00:00:11.940 
+head, going over all the steps that you
+need to know to create a human head.
+
+4
+00:00:12.330 --> 00:00:16.640 
+We'll start off simple by first creating
+the rough shape of a head from a UV sphere.
+
+5
+00:00:16.930 --> 00:00:21.360 
+We'll then start adding bit by bit all of
+the facial elements to this sphere.
+
+6
+00:00:21.650 --> 00:00:25.200 
+We'll spend quite a bit of time at this
+low resolution putting all the facial
+
+7
+00:00:25.210 --> 00:00:28.980 
+elements before then increasing the
+resolution and adding some more
+
+8
+00:00:28.990 --> 00:00:30.240 
+definition to these shapes.
+
+9
+00:00:30.490 --> 00:00:31.980 
+Once we've done that we'll start dialing
+
+10
+00:00:31.990 --> 00:00:34.320 
+in all of these facial features to work together.
+
+11
+00:00:34.550 --> 00:00:36.120 
+Once we're done with the face we'll focus
+
+12
+00:00:36.130 --> 00:00:38.100 
+on the ears as well as the neck.
+
+13
+00:00:38.590 --> 00:00:39.960 
+And once we've done all that you'll have
+
+14
+00:00:39.970 --> 00:00:43.620 
+all the foundation to create interesting
+heads and faces.
+
+15
+00:00:44.130 --> 00:00:47.380 
+Now I'm going to go over the assumption
+that you know your way around the
+
+16
+00:00:47.390 --> 00:00:51.320 
+sculpting tools in Blender but if you
+don't go check out Zach's course on 3D
+
+17
+00:00:51.330 --> 00:00:52.360 
+sculpting in Blender.
+
+18
+00:00:52.370 --> 00:00:53.860 
+It's a comprehensive course that will
+
+19
+00:00:53.870 --> 00:00:57.620 
+teach you all the basics as well as some
+advanced techniques on how to sculpt in Blender.
+
+20
+00:00:57.930 --> 00:01:00.440 
+So now with that out of the way let's
+jump into Blender.
+
+21
+00:01:01.230 --> 00:01:03.800 
+Hey hey so here we are in Blender.
+
+22
+00:01:04.090 --> 00:01:05.880 
+So to start off let's select all of our
+
+23
+00:01:05.890 --> 00:01:07.340 
+objects over here and let's delete these.
+
+24
+00:01:07.570 --> 00:01:09.500 
+We won't be needing these and let's add
+
+25
+00:01:09.510 --> 00:01:10.660 
+in a UV sphere.
+
+26
+00:01:10.890 --> 00:01:12.580 
+We'll be using this to sculpt our head.
+
+27
+00:01:12.890 --> 00:01:17.280 
+So now with our UV sphere added let's go
+to the sculpting tab over here on the top.
+
+28
+00:01:17.570 --> 00:01:21.040 
+This will set the layout for Blender more
+oriented towards sculpting and in fact
+
+29
+00:01:21.050 --> 00:01:23.520 
+we're already in sculpting mode as you
+can see over here.
+
+30
+00:01:23.870 --> 00:01:26.780 
+Now in the 3D viewport I'm going to
+adjust the tool panel.
+
+31
+00:01:26.930 --> 00:01:29.840 
+I'm just going to drag it out just a bit
+just so we have two icons.
+
+32
+00:01:30.030 --> 00:01:35.040 
+Not so far that all the names pop up just
+far enough that we have these two rows of icons.
+
+33
+00:01:35.270 --> 00:01:39.240 
+This will help you see which tools I'm
+using when we start sculpting our head.
+
+34
+00:01:39.570 --> 00:01:42.900 
+Now in this video we're going to
+primarily focus on the base shapes for
+
+35
+00:01:42.910 --> 00:01:43.300 
+the head.
+
+36
+00:01:43.390 --> 00:01:44.520 
+So we're going to work in symmetry.
+
+37
+00:01:44.870 --> 00:01:46.640 
+So for this let's enable X symmetry.
+
+38
+00:01:46.870 --> 00:01:48.580 
+So up here let's enable X symmetry.
+
+39
+00:01:48.590 --> 00:01:51.900 
+And now with this if we make any changes
+to our model over here
+
+40
+00:01:52.030 --> 00:01:52.080 
+.
+
+41
+00:01:52.090 --> 00:01:53.660 
+So with our grab brush you can make any
+
+42
+00:01:53.670 --> 00:01:54.800 
+changes like so.
+
+43
+00:01:54.810 --> 00:01:57.080 
+The same will happen on the other side
+
+44
+00:01:57.090 --> 00:01:58.520 
+along the X axis.
+
+45
+00:01:58.530 --> 00:02:00.040 
+Now before we start sculpting anything
+
+46
+00:02:00.050 --> 00:02:01.880 
+it's important to have references.
+
+47
+00:02:01.890 --> 00:02:03.980 
+So I'm going to drag in my reference window.
+
+48
+00:02:03.990 --> 00:02:06.200 
+So for this I'm using PureRef.
+
+49
+00:02:06.210 --> 00:02:07.620 
+This is a very handy program.
+
+50
+00:02:07.630 --> 00:02:11.820 
+This allows me to have all my references
+up here on top of Blender or whatever
+
+51
+00:02:11.830 --> 00:02:12.580 
+software I'm using.
+
+52
+00:02:12.590 --> 00:02:14.780 
+So I can easily modify anything within
+
+53
+00:02:14.790 --> 00:02:18.400 
+the software and then have all of my
+references over here on top.
+
+54
+00:02:18.410 --> 00:02:23.240 
+So this makes it very easy to use
+reference material when sculpting in Blender.
+
+55
+00:02:23.250 --> 00:02:25.300 
+Now we don't just have this window over here.
+
+56
+00:02:25.310 --> 00:02:27.040 
+We can move it whenever we want by
+
+57
+00:02:27.050 --> 00:02:28.260 
+holding right click.
+
+58
+00:02:28.270 --> 00:02:29.920 
+So if it's obstructing something we can
+
+59
+00:02:29.930 --> 00:02:31.160 
+easily move it out of the way.
+
+60
+00:02:31.170 --> 00:02:32.780 
+And then when we're done we can move it
+
+61
+00:02:32.790 --> 00:02:33.980 
+back just like so.
+
+62
+00:02:33.990 --> 00:02:35.760 
+Now to manipulate things within PureRef
+
+63
+00:02:35.770 --> 00:02:38.020 
+we can simply use the scroll wheel to
+zoom in.
+
+64
+00:02:38.030 --> 00:02:40.420 
+Hold the middle mouse button to move around.
+
+65
+00:02:40.430 --> 00:02:42.800 
+And we can just use click and drag to
+
+66
+00:02:42.810 --> 00:02:44.160 
+modify what's inside.
+
+67
+00:02:44.170 --> 00:02:46.000 
+So having PureRef is really handy
+
+68
+00:02:46.010 --> 00:02:47.240 
+especially if you only have one screen.
+
+69
+00:02:47.250 --> 00:02:49.520 
+So you can have your references right there.
+
+70
+00:02:49.530 --> 00:02:53.240 
+But even if you have multiple screens I
+still recommend using PureRef right on
+
+71
+00:02:53.250 --> 00:02:54.160 
+top of Blender.
+
+72
+00:02:54.170 --> 00:02:55.940 
+So you have this reference right next to
+
+73
+00:02:55.950 --> 00:02:56.840 
+where you're working.
+
+74
+00:02:56.850 --> 00:02:58.460 
+It really helps having something that
+
+75
+00:02:58.470 --> 00:02:59.620 
+close by hand.
+
+76
+00:02:59.630 --> 00:03:02.560 
+That said I have a second window open on
+
+77
+00:03:02.570 --> 00:03:05.720 
+my second screen where I have a lot of
+references as well.
+
+78
+00:03:05.730 --> 00:03:08.700 
+So having as much reference as possible
+is always good.
+
+79
+00:03:08.710 --> 00:03:11.720 
+Since no artist can work well just based
+on muscle memory.
+
+80
+00:03:11.730 --> 00:03:13.840 
+Having something to use as a reference.
+
+81
+00:03:13.850 --> 00:03:14.800 
+Something to work off.
+
+82
+00:03:14.810 --> 00:03:17.340 
+Something to guide your decisions is
+always better.
+
+83
+00:03:17.350 --> 00:03:20.500 
+So get as many references as you can.
+
+84
+00:03:20.510 --> 00:03:22.560 
+So now with that let's get started
+
+85
+00:03:22.570 --> 00:03:23.540 
+sculpting the head.
+
+86
+00:03:23.550 --> 00:03:25.080 
+So what we're going to do to start off is
+
+87
+00:03:25.090 --> 00:03:28.580 
+just to create the base rough shape for
+the head.
+
+88
+00:03:28.590 --> 00:03:32.980 
+So we're just trying to get this upside
+down egg shape as it were.
+
+89
+00:03:32.990 --> 00:03:34.700 
+Just from the front view over here.
+
+90
+00:03:34.710 --> 00:03:36.580 
+Pushing this in using our grab brush.
+
+91
+00:03:36.590 --> 00:03:38.380 
+Just adjusting this shape.
+
+92
+00:03:38.390 --> 00:03:39.960 
+Now from the side view what we're going
+
+93
+00:03:39.970 --> 00:03:40.320 
+to do.
+
+94
+00:03:40.330 --> 00:03:41.900 
+We're going to try to get the shape that
+
+95
+00:03:41.910 --> 00:03:43.000 
+we can see over here.
+
+96
+00:03:43.010 --> 00:03:46.700 
+So I'm just going to drag this in over here.
+
+97
+00:03:46.710 --> 00:03:48.080 
+Let's push this up as well.
+
+98
+00:03:48.090 --> 00:03:50.460 
+So we have this chin area over here.
+
+99
+00:03:50.470 --> 00:03:52.680 
+And the back of the skull over here.
+
+100
+00:03:52.690 --> 00:03:56.120 
+Just adjusting the shape like so.
+
+101
+00:03:56.130 --> 00:04:00.520 
+Again using the grab brush just to get
+that rough shape.
+
+102
+00:04:00.530 --> 00:04:02.200 
+Now next up we want to create the neck.
+
+103
+00:04:02.210 --> 00:04:04.220 
+So for this we can use the mask tool.
+
+104
+00:04:04.230 --> 00:04:06.820 
+Let's mask out this area over here at the bottom.
+
+105
+00:04:06.830 --> 00:04:08.660 
+Let's invert our mask.
+
+106
+00:04:08.670 --> 00:04:11.580 
+Now just drag this down to create the neck.
+
+107
+00:04:11.590 --> 00:04:13.280 
+Now the geometry is warping a lot since
+
+108
+00:04:13.290 --> 00:04:15.040 
+we're working at low resolution.
+
+109
+00:04:15.050 --> 00:04:15.620 
+But this is fine.
+
+110
+00:04:15.630 --> 00:04:18.760 
+We just want to create the rough shape
+for the neck.
+
+111
+00:04:18.770 --> 00:04:21.520 
+So let's just adjust this with our grab brush.
+
+112
+00:04:21.530 --> 00:04:23.760 
+Just so we get a rough approximation of
+
+113
+00:04:23.770 --> 00:04:25.300 
+what our neck will look like.
+
+114
+00:04:25.310 --> 00:04:27.360 
+We can now undo our mask.
+
+115
+00:04:27.370 --> 00:04:29.860 
+We can now adjust the shape of the head.
+
+116
+00:04:29.870 --> 00:04:31.960 
+Again let's look at our reference over here.
+
+117
+00:04:31.970 --> 00:04:34.520 
+Just adjust the shape of the head over here.
+
+118
+00:04:34.530 --> 00:04:37.140 
+To fit towards this new neck that we just added.
+
+119
+00:04:37.150 --> 00:04:39.800 
+So let's just adjust some of this
+geometry over here.
+
+120
+00:04:39.810 --> 00:04:45.680 
+Just using the grab brush just to adjust
+the silhouette of our head over here.
+
+121
+00:04:45.690 --> 00:04:47.480 
+Now once we're happy with the rough shape
+of our head.
+
+122
+00:04:47.490 --> 00:04:50.860 
+We can use the voxel remesher to remesh
+our mesh.
+
+123
+00:04:50.870 --> 00:04:53.240 
+To add a bit more geometry to work with.
+
+124
+00:04:53.250 --> 00:04:55.040 
+So let's press R.
+
+125
+00:04:55.050 --> 00:05:00.840 
+Let's set the resolution to something
+like 0 .05.
+
+126
+00:05:00.850 --> 00:05:04.720 
+Let's now press CTRL R to apply the voxel remesh.
+
+127
+00:05:04.730 --> 00:05:06.400 
+So just like that we added all of this
+
+128
+00:05:06.410 --> 00:05:07.980 
+new geometry to our mesh.
+
+129
+00:05:07.990 --> 00:05:09.640 
+Let's now hold SHIFT just to smooth out
+
+130
+00:05:09.650 --> 00:05:10.520 
+all of this geometry.
+
+131
+00:05:10.530 --> 00:05:13.640 
+Just so we have a nice clean base to work from.
+
+132
+00:05:13.650 --> 00:05:16.540 
+So now with that all smoothed out we have
+a nice base over here.
+
+133
+00:05:16.550 --> 00:05:20.020 
+Let's just use this grab brush just to
+bring out this neck over here.
+
+134
+00:05:20.030 --> 00:05:21.620 
+Just a bit more.
+
+135
+00:05:21.630 --> 00:05:23.180 
+Let's now start bringing out some of
+
+136
+00:05:23.190 --> 00:05:24.300 
+these facial features.
+
+137
+00:05:24.310 --> 00:05:25.460 
+So some of these landmarks.
+
+138
+00:05:25.470 --> 00:05:27.280 
+So for this let's get our crease brush.
+
+139
+00:05:27.290 --> 00:05:29.040 
+And let's reduce the pinch value.
+
+140
+00:05:29.050 --> 00:05:31.920 
+As I don't want to pinch any of the
+geometry together just yet.
+
+141
+00:05:31.930 --> 00:05:34.100 
+And let's start bringing out some of
+these features.
+
+142
+00:05:34.110 --> 00:05:35.740 
+So let's increase the strength.
+
+143
+00:05:35.750 --> 00:05:37.020 
+And let's start bringing out some of
+
+144
+00:05:37.030 --> 00:05:37.620 
+these shapes.
+
+145
+00:05:37.630 --> 00:05:39.860 
+Over here let's bring out this jaw shape.
+
+146
+00:05:39.870 --> 00:05:44.580 
+So hold CTRL just to bring out this jaw
+line over here.
+
+147
+00:05:44.590 --> 00:05:46.040 
+Now just trying to bring out landmarks.
+
+148
+00:05:46.050 --> 00:05:48.200 
+So we don't want to be too focused on
+
+149
+00:05:48.210 --> 00:05:49.760 
+getting these shapes right just now.
+
+150
+00:05:49.770 --> 00:05:51.860 
+We just want to get these landmarks.
+
+151
+00:05:51.870 --> 00:05:54.480 
+So let's for example bring in these eye sockets.
+
+152
+00:05:54.490 --> 00:05:56.320 
+So let's push this in over here.
+
+153
+00:05:56.330 --> 00:05:58.480 
+Let's just play fast and loose with these shapes.
+
+154
+00:05:58.490 --> 00:06:00.800 
+We just want to start getting a feel for
+
+155
+00:06:00.810 --> 00:06:02.020 
+some of these landmarks.
+
+156
+00:06:02.030 --> 00:06:03.500 
+These base shapes.
+
+157
+00:06:03.510 --> 00:06:05.700 
+So let's start bringing out this nose as well.
+
+158
+00:06:05.710 --> 00:06:07.140 
+Again just very simple.
+
+159
+00:06:07.150 --> 00:06:08.200 
+And here the mouth.
+
+160
+00:06:08.210 --> 00:06:10.920 
+So just push this area in just for the mouth.
+
+161
+00:06:10.930 --> 00:06:14.700 
+Let's push out where the actual mouth
+would be like so.
+
+162
+00:06:14.710 --> 00:06:20.480 
+Now use the grab brush just to adjust the
+profile, the silhouette of these shapes.
+
+163
+00:06:20.490 --> 00:06:25.180 
+Again we're just trying to very slowly
+but surely bring out some of these very
+
+164
+00:06:25.190 --> 00:06:26.080 
+simple base shapes.
+
+165
+00:06:26.090 --> 00:06:28.160 
+Again let's make sure we're using our
+
+166
+00:06:28.170 --> 00:06:30.320 
+reference while we make these adjustments.
+
+167
+00:06:30.330 --> 00:06:32.100 
+So let's for example push in this ridge
+
+168
+00:06:32.110 --> 00:06:34.140 
+that we can see over here from the skull.
+
+169
+00:06:34.150 --> 00:06:36.240 
+So let's use our crease brush once again.
+
+170
+00:06:36.250 --> 00:06:39.100 
+Let's just push in this area over here.
+
+171
+00:06:39.110 --> 00:06:42.040 
+Let's bring out the brow as well.
+
+172
+00:06:42.050 --> 00:06:45.520 
+Let's also separate the forehead a bit
+like so.
+
+173
+00:06:45.530 --> 00:06:48.920 
+I think also going to bring out the
+cheekbone over here.
+
+174
+00:06:48.930 --> 00:06:52.300 
+And again let's drag out the shape of the jaw.
+
+175
+00:06:52.310 --> 00:06:53.840 
+So we're just you know playing fast and
+
+176
+00:06:53.850 --> 00:06:54.620 
+loose with the shapes.
+
+177
+00:06:54.630 --> 00:06:57.120 
+Just trying to bring out all of these landmarks.
+
+178
+00:06:57.130 --> 00:06:59.880 
+So over here at the side I think I'm
+going to bring out the ear over here.
+
+179
+00:06:59.890 --> 00:07:01.540 
+Just behind the jaw
+.
+
+180
+00:07:01.550 --> 00:07:04.040 
+So let's drag out this shape over here.
+
+181
+00:07:04.050 --> 00:07:06.540 
+Let's now get our grab brush just to
+
+182
+00:07:06.550 --> 00:07:07.740 
+adjust the shape over here.
+
+183
+00:07:07.750 --> 00:07:09.880 
+So I'm going to bring this lower part
+
+184
+00:07:09.890 --> 00:07:11.340 
+down just a bit more.
+
+185
+00:07:11.350 --> 00:07:14.500 
+And then push back the ends of our ear.
+
+186
+00:07:14.510 --> 00:07:18.520 
+Now that we're here we can also adjust
+the silhouette of the forehead over here.
+
+187
+00:07:18.530 --> 00:07:20.440 
+As well as the mouth area.
+
+188
+00:07:20.450 --> 00:07:22.560 
+Now to guide us we can use this reference
+
+189
+00:07:22.570 --> 00:07:25.600 
+material of this skull over here to guide
+these shapes.
+
+190
+00:07:25.610 --> 00:07:28.580 
+So if we line up the camera to our
+reference we can already tell that our
+
+191
+00:07:28.590 --> 00:07:30.280 
+mouth is way too far forwards.
+
+192
+00:07:30.290 --> 00:07:32.300 
+So let's use our grab brush just to push
+
+193
+00:07:32.310 --> 00:07:33.400 
+this back a little.
+
+194
+00:07:33.410 --> 00:07:35.360 
+Next thing I notice is that we have this
+
+195
+00:07:35.370 --> 00:07:39.320 
+clear separation between the nose bridge
+and the brow so let's adjust this as well
+
+196
+00:07:39.330 --> 00:07:43.360 
+We can also see we have this clear
+protrusion of the chin so let's drag this
+
+197
+00:07:43.370 --> 00:07:44.020 
+chin out a bit.
+
+198
+00:07:44.030 --> 00:07:45.780 
+Let's use our grab brush just to pull
+
+199
+00:07:45.790 --> 00:07:48.960 
+this out just a bit more
+And we can also tell the shape of the jaw
+
+200
+00:07:48.970 --> 00:07:50.360 
+needs to be adjusted as well.
+
+201
+00:07:50.370 --> 00:07:52.300 
+So let's use our grab brush just to
+
+202
+00:07:52.310 --> 00:07:53.540 
+adjust the shape of the jaw.
+
+203
+00:07:53.550 --> 00:07:55.380 
+Now we don't want to just focus on the
+
+204
+00:07:55.390 --> 00:07:57.840 
+facial features We also want to make sure
+that the shape of the head is correct.
+
+205
+00:07:57.850 --> 00:08:00.980 
+So let's make sure that the like of the
+head over here Follows the same shape
+
+206
+00:08:00.990 --> 00:08:04.740 
+that we can see in our reference material
+So in this stage, you're basically just
+
+207
+00:08:04.750 --> 00:08:07.760 
+adjusting all of these areas to follow
+more or less the shape
+
+208
+00:08:07.770 --> 00:08:11.940 
+that we can see in our reference
+So we're just focusing on these big shapes.
+
+209
+00:08:11.950 --> 00:08:15.380 
+We're ignoring any of these smaller
+details We're just trying to get all of
+
+210
+00:08:15.390 --> 00:08:19.720 
+these bigger shapes in place So once
+we're happy with the structural changes
+
+211
+00:08:19.730 --> 00:08:24.040 
+based on the skull we can move on to
+different references just to keep
+
+212
+00:08:24.050 --> 00:08:26.580 
+building on To these shapes for example
+over here.
+
+213
+00:08:26.590 --> 00:08:30.880 
+We can tell that we can make our chin a
+whole lot wider We can see this rounder shape.
+
+214
+00:08:30.890 --> 00:08:35.540 
+So let's just adjust this with our grab
+brush We also see that the location of
+
+215
+00:08:35.550 --> 00:08:37.780 
+the ears need to be shifted down a bit.
+
+216
+00:08:37.790 --> 00:08:40.780 
+So let's get our ears and just direct
+
+217
+00:08:40.790 --> 00:08:42.620 
+these Down just a tad.
+
+218
+00:08:42.630 --> 00:08:44.360 
+I'm gonna just make some minor tweaks
+
+219
+00:08:44.450 --> 00:08:44.780 
+over here.
+
+220
+00:08:44.870 --> 00:08:46.200 
+For example, the tip of the nose We can
+
+221
+00:08:46.210 --> 00:08:47.760 
+push this down a bit.
+
+222
+00:08:47.770 --> 00:08:49.660 
+So just some of the cheeks again Just
+
+223
+00:08:49.670 --> 00:08:53.720 
+looking at the reference and then just
+making these small changes Now when it
+
+224
+00:08:53.730 --> 00:08:57.340 
+comes to making these head sculpts for
+me, I like to bring out a bit more of the
+
+225
+00:08:57.350 --> 00:09:00.240 
+base of the neck
+So I like to bring out the trapezius from
+
+226
+00:09:00.250 --> 00:09:03.460 
+the back over here of the neck Now when
+it comes to the front, I like to bring it
+
+227
+00:09:03.470 --> 00:09:07.920 
+all the way down to where I would imagine
+the clavicle being So we're keeping these
+
+228
+00:09:07.930 --> 00:09:08.920 
+shapes are very simple.
+
+229
+00:09:08.930 --> 00:09:10.840 
+Just like we did with the rest of the
+
+230
+00:09:10.850 --> 00:09:13.620 
+head now I think we need to move the base
+of the neck down a bit.
+
+231
+00:09:13.630 --> 00:09:18.100 
+So for this let's use the box select tool
+Let's select this lower area over here
+
+232
+00:09:18.110 --> 00:09:22.920 
+Let's press M to get our mask tool and
+it's smooth out the transition of this
+
+233
+00:09:22.930 --> 00:09:27.800 
+mask Now press ctrl I to invert this mask
+and let's use the move tool just to move
+
+234
+00:09:27.810 --> 00:09:31.720 
+this base of the neck down a bit
+So just like that we have the base of the
+
+235
+00:09:31.730 --> 00:09:35.440 
+neck lowered Let's not use the grab brush
+just to adjust these shapes just a bit
+
+236
+00:09:35.450 --> 00:09:39.560 
+more again Let's use our reference as a
+guide when it comes to these shapes So I
+
+237
+00:09:39.570 --> 00:09:43.120 
+just adjust all of these base shapes just
+like we did with the head just to push
+
+238
+00:09:43.130 --> 00:09:47.600 
+them roughly into position
+So now that we have these rough shapes in
+
+239
+00:09:47.610 --> 00:09:52.060 
+place Let's start dialing them in to
+create some of these more defining shapes
+
+240
+00:09:52.070 --> 00:09:56.040 
+For example, let's get started with the nose
+If we look at our reference we can see we
+
+241
+00:09:56.050 --> 00:09:59.940 
+have this particular shape when it comes
+to the nose So let's not get our grab
+
+242
+00:09:59.950 --> 00:10:03.980 
+brush and I start adjusting the shape of
+our nose to fit this shape
+
+243
+00:10:03.990 --> 00:10:08.600 
+So we're gonna drag these sides inwards
+just a bit like so let's continue all the
+
+244
+00:10:08.610 --> 00:10:11.640 
+way down to the bottom Let's just push up
+the nose.
+
+245
+00:10:11.650 --> 00:10:15.660 
+Just create these nostril shapes now here
+from below I want to make sure is to
+
+246
+00:10:15.670 --> 00:10:19.360 
+separate out the nose from the cheeks If
+we look at our reference over here, we
+
+247
+00:10:19.370 --> 00:10:22.420 
+can see that the nose goes quite a bit
+into the face
+
+248
+00:10:22.430 --> 00:10:24.840 
+So let's just adjust this over here as well.
+
+249
+00:10:24.850 --> 00:10:28.100 
+Just push the nose further into the head
+
+250
+00:10:28.110 --> 00:10:32.700 
+Now focus on this side of the head now,
+so I just adjust the shape again Let's
+
+251
+00:10:32.710 --> 00:10:35.880 
+focus on the profile that we can see in
+our reference next up.
+
+252
+00:10:35.890 --> 00:10:40.840 
+We can see this nasal labial area over
+here This is basically this group of
+
+253
+00:10:40.850 --> 00:10:44.560 
+fatty tissue that goes from the bridge of
+the nose all the way to the side of the
+
+254
+00:10:44.570 --> 00:10:48.560 
+mouth We can see how these shapes blend together
+If we look at the muscles below we can
+
+255
+00:10:48.570 --> 00:10:52.940 
+see we have this indentation over here
+near the nose And we can see further
+
+256
+00:10:52.950 --> 00:10:53.820 
+towards the cheek.
+
+257
+00:10:53.830 --> 00:10:55.980 
+We have those cheekbones pushing this
+
+258
+00:10:55.990 --> 00:10:59.840 
+shape out again So let's use the grab
+brush just to push this back into the
+
+259
+00:10:59.850 --> 00:11:04.280 
+face But let's maintain this cheekbone
+area over here on the top Let's now use
+
+260
+00:11:04.290 --> 00:11:07.920 
+the crease brush just to push in this
+area just a little bit more just to
+
+261
+00:11:07.930 --> 00:11:10.200 
+create that indentation We spoke of earlier.
+
+262
+00:11:10.210 --> 00:11:10.780 
+So just like that.
+
+263
+00:11:10.790 --> 00:11:15.480 
+We're starting to separate out the nose
+from the cheek and the eyes Now speaking
+
+264
+00:11:15.570 --> 00:11:19.460 
+about eyes, let's focus on this area over
+here so let's add a bit more of a volume
+
+265
+00:11:19.470 --> 00:11:23.900 
+where the eyes would be so we just have a
+bit of reference of this tissue which
+
+266
+00:11:23.910 --> 00:11:25.160 
+Goes around the eye.
+
+267
+00:11:25.170 --> 00:11:25.260 
+So
+
+268
+00:11:25.270 --> 00:11:28.700 
+let's have a look at our reference Once
+again, we can see we have this tissue
+
+269
+00:11:28.710 --> 00:11:33.820 
+around the eyeball and then we have this
+brow going into the side of the face
+
+270
+00:11:33.830 --> 00:11:38.160 
+So we just use our crease brush just to
+create these shapes as well.
+
+271
+00:11:38.170 --> 00:11:42.260 
+I just pushed this in over here Let's
+also bring out the cheekbone a bit more
+
+272
+00:11:42.270 --> 00:11:46.420 
+now go on to the front view Let's use our
+grab brush just to make this head just a
+
+273
+00:11:46.930 --> 00:11:51.860 
+bit thinner Let's use the grab brush just
+to adjust the shape of the brow I just
+
+274
+00:11:51.870 --> 00:11:56.960 
+grabbed this and it's pushes down and
+just ever so slightly Now move our
+
+275
+00:11:56.970 --> 00:12:02.300 
+reference to the front of the face Just
+adjust the brow again pushing it down to
+
+276
+00:12:02.310 --> 00:12:08.660 
+create that shape and blend it into the
+nose and then down Towards the tip of the
+
+277
+00:12:08.670 --> 00:12:12.580 
+nose now when it comes to the cheeks and
+brow I like to use this reference
+
+278
+00:12:12.590 --> 00:12:18.260 
+material that's at this 45 degree angle
+here We can see the profile and the
+
+279
+00:12:18.270 --> 00:12:19.940 
+volume of these shapes.
+
+280
+00:12:19.950 --> 00:12:21.900 
+So let's just adjust the cheeks a bit.
+
+281
+00:12:21.910 --> 00:12:27.380 
+Let's push these out Let's also push out
+a bit the brow over here So I just drag
+
+282
+00:12:27.390 --> 00:12:32.280 
+that out to create that shape now the
+handy piece of reference are these planar
+
+283
+00:12:32.290 --> 00:12:36.260 
+references These basically simplify all
+of these shapes in their most simplest
+
+284
+00:12:36.270 --> 00:12:38.760 
+form so this really helps us find these
+base shapes
+
+285
+00:12:38.770 --> 00:12:42.400 
+So we look at our reference over here and
+we compare it to our sculpt We can see we
+
+286
+00:12:42.410 --> 00:12:46.700 
+already have these nice cheeks, but we
+need to improve upon this chin area over
+
+287
+00:12:46.710 --> 00:12:48.400 
+here We lack that contrast.
+
+288
+00:12:48.410 --> 00:12:49.960 
+Let's push this in over here with the
+
+289
+00:12:49.970 --> 00:12:55.880 
+grab brush doing the same for the nose So
+this nasal labial area, let's make sure
+
+290
+00:12:55.890 --> 00:12:59.760 
+we push this in a bit more again
+Although we're working at a very lower
+
+291
+00:12:59.770 --> 00:13:04.640 
+solution We really want to try to dial in
+these big shapes just so we have all of
+
+292
+00:13:04.650 --> 00:13:10.160 
+these landmarks in place I just tweak
+these ever so slightly and again, this is
+
+293
+00:13:10.170 --> 00:13:14.980 
+all based on this reference that we have
+Right, so now that we have all of these
+
+294
+00:13:14.990 --> 00:13:16.060 
+bigger shapes in place.
+
+295
+00:13:16.070 --> 00:13:18.620 
+We can focus on some of these smaller
+
+296
+00:13:18.630 --> 00:13:20.380 
+details now
+We're not gonna go into high resolution
+
+297
+00:13:20.390 --> 00:13:24.980 
+just yet We're still gonna focus on this
+low resolution model to get these shapes
+
+298
+00:13:24.990 --> 00:13:27.840 
+in place
+So I'm gonna focus on these muscle shapes
+
+299
+00:13:27.850 --> 00:13:32.080 
+over here we want to you know, introduce
+these shapes I want to avoid going too
+
+300
+00:13:32.090 --> 00:13:35.980 
+much into detail So that's what we're
+gonna stay at this lower solution now to
+
+301
+00:13:35.990 --> 00:13:40.240 
+line up a bit our camera with this
+reference I'm gonna increase the focal length.
+
+302
+00:13:40.250 --> 00:13:47.300 
+So I'm gonna set this to I think 95
+Millimeters just so it's a bit easier to
+
+303
+00:13:47.310 --> 00:13:49.520 
+line up with this reference that we have
+over here
+
+304
+00:13:49.530 --> 00:13:53.020 
+So also reduce a bit the distortion we
+get from our perspective.
+
+305
+00:13:53.030 --> 00:13:57.660 
+So if I go back to 45 Millimeters you can
+see we can love this distortion going on
+
+306
+00:13:57.670 --> 00:13:59.620 
+which can kind of confuse us.
+
+307
+00:13:59.630 --> 00:14:02.780 
+So let's set it back to 95 Let's start
+
+308
+00:14:02.790 --> 00:14:04.740 
+adding in some of these muscle shapes.
+
+309
+00:14:04.750 --> 00:14:07.260 
+So the focus over here on the cheekbone
+
+310
+00:14:07.270 --> 00:14:09.440 
+area over here So I got the crease brush.
+
+311
+00:14:09.450 --> 00:14:11.980 
+I'm gonna reduce the strength a bit more
+
+312
+00:14:11.990 --> 00:14:15.340 
+I'm gonna bring out this cheek shape that
+we can see in our reference over here.
+
+313
+00:14:15.350 --> 00:14:21.600 
+So I just drag Out this shape for a cheek
+We also have this deposit of muscles and
+
+314
+00:14:21.610 --> 00:14:24.660 
+fatty tissue around the corner of the
+mouth Let's use the crease brush this
+
+315
+00:14:24.670 --> 00:14:31.280 
+time to push out just around The mouth
+then use the smooth brush just to blend
+
+316
+00:14:31.290 --> 00:14:34.600 
+this back into the face You can start
+blending this crease over here as well.
+
+317
+00:14:34.610 --> 00:14:38.540 
+So let's hold shift just to blend this in
+over here I think the smooth brush is a
+
+318
+00:14:38.550 --> 00:14:41.820 
+bit too strong So I'm gonna reduce the
+strength of the smooth brush
+
+319
+00:14:41.830 --> 00:14:46.020 
+So now when we try to blend these shapes
+the smooth brush won't be so intense
+
+320
+00:14:46.030 --> 00:14:50.140 
+So before we continue adding some of
+these facial muscles and these facial
+
+321
+00:14:50.150 --> 00:14:53.640 
+features I want to focus on the overall
+shape of the head for a second now that
+
+322
+00:14:53.650 --> 00:14:57.440 
+we've increased the focal length We can
+tell that we still have a lot of this egg shape
+
+323
+00:14:57.450 --> 00:15:02.200 
+So we need to adjust some of these areas
+over here and push these nicely in to
+
+324
+00:15:02.210 --> 00:15:06.080 
+create the correct shape for the head So
+let's use our grab brush.
+
+325
+00:15:06.090 --> 00:15:11.360 
+Let's start pushing in these areas Along
+the silhouette for example these ears.
+
+326
+00:15:11.370 --> 00:15:15.120 
+Let's push them a bit further into the
+head So from the back over here to grab
+
+327
+00:15:15.130 --> 00:15:20.400 
+the back of the ears just push those in
+so just the Shape the head over here.
+
+328
+00:15:20.410 --> 00:15:26.040 
+We can use The planar reference that we
+have over here from different angles to
+
+329
+00:15:26.050 --> 00:15:32.820 
+help us guide the shape of the head So
+you can see we can push this area in over
+
+330
+00:15:32.830 --> 00:15:39.280 
+here Those ears in somewhat more Okay,
+just the shape of the head itself Okay,
+
+331
+00:15:39.290 --> 00:15:41.440 
+we're looking mainly at the silhouette of
+our reference.
+
+332
+00:15:41.450 --> 00:15:46.580 
+This will help us guide These shapes same
+goes over here for the top of the head
+
+333
+00:15:46.590 --> 00:15:49.220 
+Let's line up the head to our reference.
+
+334
+00:15:49.230 --> 00:15:52.420 
+Let's just adjust the overall shape of
+
+335
+00:15:52.430 --> 00:15:56.860 
+the head over here
+So I think it's good to overall Review
+
+336
+00:15:56.870 --> 00:16:00.440 
+your work as you're going over the model
+For example, if we go to the forehead
+
+337
+00:16:00.450 --> 00:16:04.780 
+over here We can see although we have
+this indentation at the front where we
+
+338
+00:16:04.790 --> 00:16:08.320 
+have the forehead It doesn't blend in
+nicely to the back.
+
+339
+00:16:08.330 --> 00:16:11.840 
+So if I draw this out over here So
+instead of straight and then we go BAM
+
+340
+00:16:11.850 --> 00:16:17.280 
+into the side So instead what we want is
+the forehead to gradually transition into
+
+341
+00:16:17.290 --> 00:16:21.140 
+the back of the skull So for this we can
+just use our grab brush just to push in
+
+342
+00:16:21.150 --> 00:16:25.000 
+these sides over here
+So we get this nice softer transition
+
+343
+00:16:25.010 --> 00:16:28.160 
+into the back of the head
+So if we now go to our front view we can
+
+344
+00:16:28.170 --> 00:16:30.560 
+see we have this indentation the side of
+the head
+
+345
+00:16:30.570 --> 00:16:36.840 
+So if we go back to our reference over here
+, we can see we have this soft transition
+
+346
+00:16:36.850 --> 00:16:40.940 
+into the side I'll just use our grab
+brush just to remove any of these harsh
+
+347
+00:16:40.950 --> 00:16:45.240 
+bumps over here For example over here and
+I just push in these areas just so this
+
+348
+00:16:45.250 --> 00:16:49.400 
+transition is a bit smoother Now in
+general when it comes to the head, it's
+
+349
+00:16:49.410 --> 00:16:53.740 
+good to use a reference of a skull as
+especially for the top and back Of the head.
+
+350
+00:16:53.750 --> 00:16:57.480 
+It's basically just a skull with skin on
+it So let's compare our head to the
+
+351
+00:16:57.490 --> 00:17:03.060 
+silhouette that we can see over here of
+our skull We can see that our head is a
+
+352
+00:17:03.070 --> 00:17:07.900 
+bit too square if that makes sense So
+let's just adjust this with our grab
+
+353
+00:17:07.910 --> 00:17:11.580 
+brush again Focusing on the silhouette of
+our head over here.
+
+354
+00:17:11.590 --> 00:17:16.040 
+So now focus on the side of the head
+Let's get the reference to the side of
+
+355
+00:17:16.050 --> 00:17:19.200 
+the skull and again want to focus on the
+silhouette over here
+
+356
+00:17:19.210 --> 00:17:24.620 
+So I just the silhouette of our head to
+fit a bit the silhouette of this
+
+357
+00:17:24.630 --> 00:17:29.980 
+reference that we have over here
+So by continuing to focus on this
+
+358
+00:17:29.990 --> 00:17:32.400 
+silhouette, we're starting to get a good
+base shape for the head
+
+359
+00:17:32.410 --> 00:17:36.640 
+So getting these shapes in as early as
+possible really helps against having to
+
+360
+00:17:36.650 --> 00:17:41.340 
+go back later to adjust these proportions
+So I like to spend quite a bit of time
+
+361
+00:17:41.350 --> 00:17:45.040 
+over here at this low resolution just to
+bring in these base shapes
+
+362
+00:17:45.050 --> 00:17:46.720 
+So now we've gone over the head.
+
+363
+00:17:46.730 --> 00:17:48.740 
+Let's focus on this brow area over here.
+
+364
+00:17:48.750 --> 00:17:52.000 
+So to start off Let's bring out this brow
+shape again
+
+365
+00:17:52.010 --> 00:17:56.560 
+So let's go over here with our crease
+brush and that's pushing this side area
+
+366
+00:17:56.570 --> 00:18:00.020 
+over here Just to create this temple
+shape over here.
+
+367
+00:18:00.030 --> 00:18:05.560 
+Just push in this side over here Let's
+also focus on this frontal area of the skull.
+
+368
+00:18:05.570 --> 00:18:09.880 
+So let's push in this circular shape Now
+for this, I want to have a sharper crease.
+
+369
+00:18:09.890 --> 00:18:14.580 
+So let's set the falloff to the sharper curve
+So get a sharper crease.
+
+370
+00:18:14.590 --> 00:18:18.940 
+I'm just going to create this circular
+shape over here
+
+371
+00:18:19.590 --> 00:18:23.080 
+For the forehead
+So let's keep pushing this in And holding
+
+372
+00:18:23.090 --> 00:18:28.620 
+shift just to blend this back into the
+forehead Now focus on the eye area over here.
+
+373
+00:18:28.630 --> 00:18:33.360 
+We got this tissue right above the eye So
+I'm going to use the crease brush just to
+
+374
+00:18:33.370 --> 00:18:39.320 
+bring this out over here And just holding
+ctrl just to bring this forward over here
+
+375
+00:18:39.330 --> 00:18:44.620 
+And then separate out where the eyes are
+going to be as well Now once we have the
+
+376
+00:18:44.630 --> 00:18:48.220 
+eyes separated out we can focus on this
+eye socket shape over here
+
+377
+00:18:48.230 --> 00:18:53.860 
+So let's again just create that eye
+socket shape over here with our crease
+
+378
+00:18:53.870 --> 00:18:56.000 
+brush Let's now slowly work our way down.
+
+379
+00:18:56.010 --> 00:18:57.600 
+So we also got our cheekbones.
+
+380
+00:18:57.610 --> 00:19:01.460 
+We already got them quite defined But I
+just want to bring out a landmark over here
+
+381
+00:19:01.470 --> 00:19:05.660 
+So let's just drag out a crease along the
+high point over here I also want to
+
+382
+00:19:05.670 --> 00:19:07.380 
+connect this shape up to the nose.
+
+383
+00:19:07.390 --> 00:19:10.500 
+I also want to define this nasal labial
+
+384
+00:19:10.510 --> 00:19:14.020 
+area over here
+So let's use the crease brush once again
+
+385
+00:19:14.030 --> 00:19:17.940 
+over here Let's also separate out a bit
+the nose from the face
+
+386
+00:19:17.950 --> 00:19:21.800 
+And again, I'm just using the crease
+brush just to create the separation
+
+387
+00:19:21.810 --> 00:19:25.160 
+between these areas over here for the
+mouth as well Let's just push in this
+
+388
+00:19:25.170 --> 00:19:30.860 
+area over here Where the lips would meet
+This already gives us a good
+
+389
+00:19:30.870 --> 00:19:34.980 
+representation of where the mouth would
+be Then we can move on further down just
+
+390
+00:19:34.990 --> 00:19:40.400 
+to separate out the lips from where the
+chin starts Let's just create this crease
+
+391
+00:19:40.410 --> 00:19:42.460 
+over here at the tip of the chin.
+
+392
+00:19:42.470 --> 00:19:45.280 
+Let's just smooth this back out And
+
+393
+00:19:45.290 --> 00:19:48.700 
+create this definite crease over here So
+just like that we're starting to get a
+
+394
+00:19:48.710 --> 00:19:52.880 
+lot of landmarks for the face even at
+this low resolution We can start dialing
+
+395
+00:19:52.890 --> 00:19:58.000 
+it in even more if we want to for example
+over here adding To the nostrils, but we
+
+396
+00:19:58.010 --> 00:20:02.020 
+can already see the face shining through
+the lack of details
+
+397
+00:20:02.030 --> 00:20:07.580 
+We're getting the overview of the overall
+face shape so this is a good stage to
+
+398
+00:20:07.590 --> 00:20:12.080 
+start manipulating all of the The
+different facets of the face to get the
+
+399
+00:20:12.090 --> 00:20:14.840 
+face that you're looking for
+So from here, we can just make tweaks
+
+400
+00:20:14.850 --> 00:20:18.520 
+with the grab brush just to adjust
+proportions just to get the face shape
+
+401
+00:20:18.530 --> 00:20:22.240 
+that we're looking for So we can make all
+of these tweaks and then as soon as we're
+
+402
+00:20:22.250 --> 00:20:26.940 
+happy with the result that we have over
+here We can then move on to adding more
+
+403
+00:20:26.950 --> 00:20:30.800 
+resolution and then adding the next level
+of details Now have you been watching
+
+404
+00:20:30.810 --> 00:20:32.280 
+this video up to this point?
+
+405
+00:20:32.290 --> 00:20:34.560 
+I think you have a liking towards
+
+406
+00:20:34.570 --> 00:20:36.620 
+sculpting in blender
+So if you want to improve your skills
+
+407
+00:20:36.630 --> 00:20:41.520 
+have a look at zach's course on mastering
+sculpting in blender over here You won't
+
+408
+00:20:41.530 --> 00:20:42.860 
+just learn the fundamentals.
+
+409
+00:20:42.870 --> 00:20:45.340 
+You'll learn a whole variety of advanced
+
+410
+00:20:45.350 --> 00:20:48.680 
+techniques and how to get better in sculpting
+So if you're interested in this have a
+
+411
+00:20:48.690 --> 00:20:52.340 
+look at the link in the description below
+This is also a great way to support us so
+
+412
+00:20:52.350 --> 00:20:56.580 
+we can make more videos like this one
+So over here back to our head i've gone
+
+413
+00:20:56.590 --> 00:20:58.740 
+ahead and added a bit more resolution.
+
+414
+00:20:58.750 --> 00:21:02.800 
+I've set the voxel remesher to 0 .0085
+
+415
+00:21:02.810 --> 00:21:06.620 
+and then by simply pressing ctrl r i've
+remeshed our model once again
+
+416
+00:21:06.630 --> 00:21:10.860 
+Now at this point it might be hard to
+know where to start what to do
+
+417
+00:21:10.870 --> 00:21:14.240 
+But it's basically the same that we've
+done before we're just gonna build very
+
+418
+00:21:14.250 --> 00:21:18.100 
+softly from a distance these details
+Starting with the big shapes and then
+
+419
+00:21:18.110 --> 00:21:21.340 
+working our way down
+So let's start for example with this eye
+
+420
+00:21:21.470 --> 00:21:22.020 
+area over here.
+
+421
+00:21:22.030 --> 00:21:24.520 
+Let's use the clay strips brush Reduce
+
+422
+00:21:24.530 --> 00:21:29.320 
+the strength, but I think i'm gonna push
+it up just ever so slightly I also want
+
+423
+00:21:29.330 --> 00:21:34.020 
+to disable the radius being controlled by
+my pen pressure I only want the strength
+
+424
+00:21:34.030 --> 00:21:38.220 
+to be affected by my pen pressure just so
+I feel like I have a bit more control
+
+425
+00:21:38.230 --> 00:21:41.640 
+I'm, just gonna sketch out this area
+around the eye again.
+
+426
+00:21:41.650 --> 00:21:47.100 
+I'm just trying to follow the shape that
+we can see in our reference so i'm using
+
+427
+00:21:47.110 --> 00:21:52.020 
+the Crease brush just to push this area
+in I'm gonna do the Bottom part of the eye.
+
+428
+00:21:52.030 --> 00:21:58.400 
+So i'm gonna push this out Like so and I
+use the crease brush once again Just to
+
+429
+00:21:58.410 --> 00:21:59.860 
+push in This area.
+
+430
+00:21:59.870 --> 00:22:01.940 
+So again, we're staying out at a distance.
+
+431
+00:22:01.950 --> 00:22:07.200 
+We're not going into a lot of detail just
+yet We're just sketching out these base
+
+432
+00:22:07.250 --> 00:22:07.600 
+shapes next up.
+
+433
+00:22:07.610 --> 00:22:10.480 
+I'm gonna bring out this crease above the
+
+434
+00:22:10.490 --> 00:22:15.500 
+upper eyelid Just going over here with a
+small brush Just sketching out that shape
+
+435
+00:22:15.510 --> 00:22:19.400 
+again, we're being quite rough since we
+can so we're just creating these base
+
+436
+00:22:19.410 --> 00:22:24.680 
+shapes just going over These areas to
+bring out these landmarks
+
+437
+00:22:24.690 --> 00:22:27.340 
+So now we've brought out the base shape
+for these eyelids.
+
+438
+00:22:27.350 --> 00:22:29.440 
+Let's make sure that they're round keep
+in mind.
+
+439
+00:22:29.450 --> 00:22:34.960 
+We have an eyeball Supposedly below these
+so let's just use our grab brush just to
+
+440
+00:22:35.830 --> 00:22:39.040 
+push these out I think i'm gonna need a
+smoother grab brush.
+
+441
+00:22:39.050 --> 00:22:46.640 
+Let's set the fall off to smoother Let's
+just adjust the shape Of these eyelids
+
+442
+00:22:46.650 --> 00:22:50.620 
+imagining a eyeball right below it
+Again, we're still in the early stages so
+
+443
+00:22:50.630 --> 00:22:54.580 
+we can tweak these eyelids However, we
+like now they feel quite flat to me.
+
+444
+00:22:54.590 --> 00:22:58.560 
+So i'm going to get the crease brush I'm
+not going to push in the corners of our
+
+445
+00:22:58.570 --> 00:23:01.620 
+eyes over here So i'm going to push in
+this corner over here and i'm going to
+
+446
+00:23:01.630 --> 00:23:06.140 
+push in this corner here as well Now you
+might be asking why I haven't added a
+
+447
+00:23:06.150 --> 00:23:10.080 
+sphere for the eyeball as a as a
+reference Now I don't add these this
+
+448
+00:23:10.090 --> 00:23:14.280 
+early on as I feel that they kind of
+Subconsciously anchor you to these
+
+449
+00:23:14.290 --> 00:23:17.400 
+eyeballs you try to make these eyelids
+fit these eyeballs
+
+450
+00:23:17.410 --> 00:23:21.820 
+While maybe your eyes are not the shape
+or size that you want So I like to add
+
+451
+00:23:21.830 --> 00:23:26.520 
+them on later and first focus on the
+overall shape and size of the eyes
+
+452
+00:23:26.530 --> 00:23:30.620 
+So to illustrate let's adjust the shape
+and size of our eyes right now So for
+
+453
+00:23:30.630 --> 00:23:32.100 
+this let's use our mask tool.
+
+454
+00:23:32.110 --> 00:23:34.120 
+Let's mask out the eyes.
+
+455
+00:23:34.130 --> 00:23:38.880 
+Let's now invert our mask with ctrl i
+Let's now set the pivot where our mask is
+
+456
+00:23:38.890 --> 00:23:44.900 
+so let's go to sculpt let's now go to set
+pivot set pivot to unmasked
+
+457
+00:23:44.910 --> 00:23:49.500 
+Let's now go to our scale tool and
+as you can see our pivot is now where we
+
+458
+00:23:49.510 --> 00:23:51.560 
+have our eye We can now start scaling
+this area.
+
+459
+00:23:51.570 --> 00:23:55.280 
+So we're going to make our eyes a bit
+smaller We can also go to our move tool
+
+460
+00:23:55.290 --> 00:23:58.260 
+and we can move our eye wherever we want
+them to be
+
+461
+00:23:58.270 --> 00:24:04.340 
+So let's move it a bit closer Let's move
+it also a bit further into the head Like
+
+462
+00:24:04.350 --> 00:24:08.480 
+so it's a whole lot easier to adjust and
+modify the eyes without having this
+
+463
+00:24:08.490 --> 00:24:12.560 
+eyeball in the way So now with the base
+shape for our eyes done.
+
+464
+00:24:12.570 --> 00:24:18.080 
+Let's focus on the nose i'm just going to
+use the crease brush just to bring out
+
+465
+00:24:18.090 --> 00:24:21.260 
+the Nostril over here and there's a very
+simple nostril shape.
+
+466
+00:24:21.270 --> 00:24:26.440 
+I'm also going to push in the nose holes
+again We're just trying to focus on these
+
+467
+00:24:26.450 --> 00:24:29.520 
+base shapes and as you can see most of
+the heavy lifting has been done by the
+
+468
+00:24:29.530 --> 00:24:33.660 
+work that we did before since the Overall
+shape of the nose is already there i'm
+
+469
+00:24:33.670 --> 00:24:38.200 
+not going to use the clay strips brush
+just to bring out this shape in the nose
+
+470
+00:24:38.210 --> 00:24:38.720 
+over here.
+
+471
+00:24:38.730 --> 00:24:42.260 
+We got this part just above the nostril
+
+472
+00:24:42.270 --> 00:24:46.420 
+that's Joining back into this And this
+nasal labial area and then from here We
+
+473
+00:24:46.430 --> 00:24:51.020 
+want to push in the part of the nose
+where we have the bridge Joining up to
+
+474
+00:24:51.030 --> 00:24:54.500 
+the tip of the nose right over here
+So let's just continue pushing this in
+
+475
+00:24:54.510 --> 00:25:00.700 
+with the clay strips brush also over here
+alongside Where it joins towards the eye
+
+476
+00:25:00.770 --> 00:25:01.220 
+Just like that.
+
+477
+00:25:01.230 --> 00:25:03.900 
+We're starting to get a very simple nose
+
+478
+00:25:03.910 --> 00:25:06.720 
+shape What does these very few adjustments?
+
+479
+00:25:06.730 --> 00:25:08.920 
+Let's have a look at the side of our nose
+
+480
+00:25:08.930 --> 00:25:10.980 
+I'm going to look at the profile over here.
+
+481
+00:25:10.990 --> 00:25:14.340 
+You can use the grab brush just to adjust
+
+482
+00:25:14.350 --> 00:25:18.860 
+The profile i'm going to get this nice
+straight nose Let's adjust a bit the tip
+
+483
+00:25:18.870 --> 00:25:19.300 
+over here.
+
+484
+00:25:19.310 --> 00:25:21.340 
+Just pushing it down ever so slightly Now
+
+485
+00:25:21.350 --> 00:25:25.100 
+at the risk of sounding like a broken
+record again We want to focus on these
+
+486
+00:25:25.110 --> 00:25:25.240 
+big shapes.
+
+487
+00:25:25.250 --> 00:25:27.960 
+We're going to focus on the details just yet.
+
+488
+00:25:27.970 --> 00:25:32.660 
+Just adjusting these base shapes
+So let's now move on from our nose to our mouth.
+
+489
+00:25:32.670 --> 00:25:37.260 
+Let's use the crease brush just to push
+in over here where the lips would meet
+
+490
+00:25:37.270 --> 00:25:42.920 
+I'm going to use control just to push out
+the edges Of both the upper lip and over
+
+491
+00:25:42.930 --> 00:25:45.760 
+here now the bottom lip
+And as you can see most of the heavy
+
+492
+00:25:45.770 --> 00:25:49.660 
+lifting has been done by what we did
+before where we had the base shape over
+
+493
+00:25:49.670 --> 00:25:52.200 
+here We're now just refining these shapes.
+
+494
+00:25:52.330 --> 00:25:53.000 
+So let's continue.
+
+495
+00:25:53.010 --> 00:25:57.260 
+Let's focus on this area over here I'm
+going to add some more volume around the
+
+496
+00:25:57.270 --> 00:26:01.500 
+corner of the mouth This is the area
+where a lot of muscles come together.
+
+497
+00:26:01.510 --> 00:26:06.620 
+There's also a lot of tissue over here So
+this is this node on the corner of the
+
+498
+00:26:06.630 --> 00:26:11.120 
+mouth Let's just add some volume over
+here the clay strips brush Just doing
+
+499
+00:26:11.130 --> 00:26:15.820 
+this gradual build up and then holding
+shift just to blend these shapes nicely
+
+500
+00:26:15.830 --> 00:26:19.620 
+back together Now over here, we can also
+add a bit more volume below the lips over
+
+501
+00:26:19.630 --> 00:26:24.920 
+here and hold shift to blend these together
+So let's now move back to our nose and
+
+502
+00:26:24.930 --> 00:26:27.280 
+brow for a second
+And let's just look at this reference
+
+503
+00:26:27.290 --> 00:26:30.980 
+that we have over here of this scan now,
+although the nose is completely different
+
+504
+00:26:30.990 --> 00:26:33.280 
+There's still parts that we can glean
+from this.
+
+505
+00:26:33.290 --> 00:26:38.540 
+For example, the bottom of our nose can
+probably go forward just a bit over here
+
+506
+00:26:38.550 --> 00:26:43.020 
+You can also see that the chin of our
+character might go down a bit further
+
+507
+00:26:43.030 --> 00:26:47.700 
+over here I think we can also bring the
+brow down ever so slightly We can also
+
+508
+00:26:47.710 --> 00:26:51.980 
+add a bit more volume to this brow just
+like we can see in our reference It's
+
+509
+00:26:51.990 --> 00:26:57.540 
+filling in this space over here just
+above this crease From the upper eyelid.
+
+510
+00:26:57.550 --> 00:27:00.800 
+We don't want to copy directly what we
+see in our reference instead What we want
+
+511
+00:27:00.810 --> 00:27:06.240 
+to do is find these shapes within our
+reference that we can then apply to our face
+
+512
+00:27:06.250 --> 00:27:11.200 
+So let's now smooth this area of our brow
+this volume that we just added And now
+
+513
+00:27:11.210 --> 00:27:14.500 
+with this let's focus on this center area
+of the brow
+
+514
+00:27:14.510 --> 00:27:19.200 
+So if we go to our reference if we focus
+this area over here, we have this
+
+515
+00:27:19.210 --> 00:27:23.520 
+triangular shape Let's see this better
+let's go to the front of the face in our
+
+516
+00:27:23.530 --> 00:27:24.340 
+reference You can see here.
+
+517
+00:27:24.350 --> 00:27:25.560 
+We have this triangular shape.
+
+518
+00:27:25.570 --> 00:27:32.080 
+So let's use the crease brush Just to
+bring out this triangular shape like so
+
+519
+00:27:32.090 --> 00:27:38.360 
+As you can see we're starting to bring in
+these shapes bit by bit Over time getting
+
+520
+00:27:38.410 --> 00:27:39.020 
+into more detail.
+
+521
+00:27:39.030 --> 00:27:41.860 
+So we're not focused yet on creating the
+
+522
+00:27:41.870 --> 00:27:45.660 
+eye just perfect or anything like that
+We're just bringing these shapes ever so
+
+523
+00:27:45.670 --> 00:27:46.580 
+slightly bit by bit.
+
+524
+00:27:46.590 --> 00:27:49.060 
+So i'm now going to focus again on this
+
+525
+00:27:49.070 --> 00:27:52.380 
+cheekbone area over here
+It goes all the way towards the ear.
+
+526
+00:27:52.390 --> 00:27:55.740 
+So i'm going to drag this out with the
+crease brush Now, I think this is a bit
+
+527
+00:27:55.750 --> 00:27:55.900 
+too strong.
+
+528
+00:27:55.910 --> 00:27:59.780 
+So i'm going to undo that drag Out this
+
+529
+00:27:59.790 --> 00:28:04.580 
+the shape over here and hold shift just
+to blend these back in again This is just
+
+530
+00:28:04.590 --> 00:28:09.120 
+a landmark for us to to work off from
+next up i'm going to work on this area
+
+531
+00:28:09.130 --> 00:28:13.360 
+over here This nasal labial area i'm just
+going to drag this crease down again.
+
+532
+00:28:13.370 --> 00:28:16.660 
+This is just going to be a landmark
+So to see this let's have a look at our
+
+533
+00:28:16.670 --> 00:28:20.040 
+reference once again Let's look at this
+scan over here over here.
+
+534
+00:28:20.050 --> 00:28:25.080 
+You can see this nasal labial area
+So now that we have created these
+
+535
+00:28:25.090 --> 00:28:30.700 
+landmarks, let's get our cleanser brush
+and start filling in some of these these
+
+536
+00:28:30.710 --> 00:28:35.220 
+these crevices With some fatty tissue at
+least i'm trying to imagine it being this
+
+537
+00:28:35.230 --> 00:28:35.420 
+fatty tissue.
+
+538
+00:28:35.430 --> 00:28:38.840 
+So i'm just going to connect up some of
+
+539
+00:28:38.850 --> 00:28:42.720 
+these shapes Just doing some soft build
+-up with the clay strips brush.
+
+540
+00:28:42.730 --> 00:28:47.540 
+So over here i'm filling in a bit the eye
+socket I'm, also going to add a bit of
+
+541
+00:28:47.550 --> 00:28:53.020 
+build -up around the nose Just doing this
+soft build -up with the clay strips brush
+
+542
+00:28:53.030 --> 00:28:56.880 
+Here we're just going to try and fill in
+some of these areas trying to blend the
+
+543
+00:28:56.890 --> 00:29:00.800 
+nose and the eyes nicely together Again,
+we're using reference.
+
+544
+00:29:00.810 --> 00:29:06.080 
+I have reference on my second screen Just
+to guide these these decisions
+
+545
+00:29:06.090 --> 00:29:09.940 
+So i'm going to focus on this area above
+the upper eyelid I really want to bring
+
+546
+00:29:09.950 --> 00:29:15.500 
+out this shape over here this this tissue
+that slightly overlaps on top of the
+
+547
+00:29:15.510 --> 00:29:17.920 
+upper eyelid
+So i'm going to get the clay strips brush
+
+548
+00:29:18.050 --> 00:29:21.440 
+over here I'm, just going to add a bit
+more volume to this area over here this
+
+549
+00:29:21.450 --> 00:29:26.240 
+crease that i've just drawn Just to fill
+out this shape over here now for the
+
+550
+00:29:26.250 --> 00:29:26.460 
+lower eyelid.
+
+551
+00:29:26.470 --> 00:29:28.460 
+Let's do the exact same thing over here
+
+552
+00:29:28.470 --> 00:29:29.400 
+Let's define this shape.
+
+553
+00:29:29.410 --> 00:29:32.480 
+So I think we can use a crease brush for this
+
+554
+00:29:32.490 --> 00:29:37.860 
+So let's just define this shape to create
+these creases below over here Just to
+
+555
+00:29:37.870 --> 00:29:39.920 
+define the shape of the eyelid.
+
+556
+00:29:39.930 --> 00:29:41.880 
+So just create this crease over here
+
+557
+00:29:41.890 --> 00:29:46.440 
+Let's now get the clay strips brush and
+let's add some volume to this lower
+
+558
+00:29:46.450 --> 00:29:50.940 
+eyelid to again define the shape
+So let's just use a small brush and just
+
+559
+00:29:50.950 --> 00:29:56.440 
+add a bit of volume over here Now swap to
+the grab brush and just simply adjust a
+
+560
+00:29:56.450 --> 00:30:01.920 
+bit the edge of these eyelids Now once
+we're happy we can swap to the flatten
+
+561
+00:30:01.930 --> 00:30:06.120 
+brush I'm going to set the normal radius
+of the flatten brush
+
+562
+00:30:06.130 --> 00:30:10.560 
+To one so basically increase the radius
+from which the normal is sampled
+
+563
+00:30:10.570 --> 00:30:15.320 
+So the bigger the number the more average
+the normal of our brush will be so we're
+
+564
+00:30:15.330 --> 00:30:19.760 
+not using this normal to flatten our surface
+So what we're doing basically is getting
+
+565
+00:30:19.770 --> 00:30:24.640 
+all of this noise along the surface
+Finding the average normal and then
+
+566
+00:30:24.650 --> 00:30:28.660 
+flattening it to that normal
+So I like to think of this as a polishing
+
+567
+00:30:28.670 --> 00:30:34.080 
+brush i'm removing all of this high noise
+all of these Noisy bits of the surface
+
+568
+00:30:34.090 --> 00:30:39.220 
+and generating this averaged polished
+surface It also makes it easier to blend
+
+569
+00:30:39.230 --> 00:30:42.940 
+certain shapes together basically finding
+the average between these two shapes So
+
+570
+00:30:42.950 --> 00:30:44.120 
+now we have this polished up.
+
+571
+00:30:44.130 --> 00:30:45.520 
+Let's get the crease brush.
+
+572
+00:30:45.530 --> 00:30:50.640 
+Let's create this overlap with the upper
+eyelid over here Just pushing this out
+
+573
+00:30:50.650 --> 00:30:51.840 
+holding control Now over here below.
+
+574
+00:30:51.850 --> 00:30:55.080 
+I want to focus on bringing out this eye
+
+575
+00:30:55.090 --> 00:30:59.280 
+socket shape It's one of those shapes we
+often forget But it's a fundamental part
+
+576
+00:30:59.410 --> 00:30:59.920 
+of the face.
+
+577
+00:30:59.930 --> 00:31:02.580 
+Let's just bring out this eye socket
+
+578
+00:31:02.590 --> 00:31:08.620 
+shape i'm going to use a small size brush
+just to bring out a sketch of this shape
+
+579
+00:31:08.630 --> 00:31:11.960 
+of the The eye socket just so we have it
+as a reference
+
+580
+00:31:11.970 --> 00:31:15.680 
+So now that we've pushed in this area, we
+have this part sticking out over here.
+
+581
+00:31:15.690 --> 00:31:17.700 
+That's bothering me
+So i'm going to get the scrape brush.
+
+582
+00:31:17.710 --> 00:31:22.680 
+I'm just going to scrape away this harsh
+edge over here Just so it blends nicely
+
+583
+00:31:22.690 --> 00:31:27.980 
+back into the face You can just continue
+using the scrape brush just to remove any
+
+584
+00:31:27.990 --> 00:31:32.500 
+of these harsher edges You can continue
+along this side of the mouth over here.
+
+585
+00:31:32.510 --> 00:31:36.960 
+Although it's a Rounder shape we can
+remove any of these parts that are
+
+586
+00:31:36.970 --> 00:31:38.500 
+sticking out too far.
+
+587
+00:31:38.510 --> 00:31:40.360 
+Let's now continue our work downwards
+
+588
+00:31:40.370 --> 00:31:42.520 
+Let's focus on this mouth area over here.
+
+589
+00:31:42.530 --> 00:31:45.320 
+Let's clean up a bit the philtrum over here.
+
+590
+00:31:45.910 --> 00:31:50.200 
+Let's also adjust This area over here
+with the grab brush
+
+591
+00:31:50.210 --> 00:31:56.860 
+Look at the nose as well while we're here
+Just move this back a bit Let's have a
+
+592
+00:31:56.870 --> 00:31:58.940 
+look at those lips as well.
+
+593
+00:31:58.950 --> 00:32:01.780 
+Just move this lower lip up just ever so
+
+594
+00:32:01.790 --> 00:32:05.460 
+slightly it's also just the upper lip
+over here, let's just Push this up.
+
+595
+00:32:05.470 --> 00:32:09.540 
+This really creates this sort of winged
+shape for the upper lip I'm, also going
+
+596
+00:32:09.550 --> 00:32:13.880 
+to use the grab brush on the side of the
+mouth over here Just to blend the shape a
+
+597
+00:32:13.890 --> 00:32:17.280 
+bit back into the face
+Now for this side of the jaw over here,
+
+598
+00:32:17.290 --> 00:32:20.740 
+let's have a look at this escrochet that
+I have over here Over here.
+
+599
+00:32:20.750 --> 00:32:22.920 
+We can see this masseter muscle.
+
+600
+00:32:22.930 --> 00:32:25.460 
+This is muscle that opens and closes the jaw.
+
+601
+00:32:25.470 --> 00:32:30.800 
+This is our biting muscle So let's use
+our claytrips brush just to define the
+
+602
+00:32:30.810 --> 00:32:32.600 
+shape Of the masseter muscle.
+
+603
+00:32:32.610 --> 00:32:34.780 
+This is a muscle that we can often see in
+
+604
+00:32:34.790 --> 00:32:37.580 
+the face So it's important that we get
+this clearly defined.
+
+605
+00:32:37.590 --> 00:32:42.580 
+I'm just going to add Some volume over
+here once i'm happy i'm going to hold
+
+606
+00:32:42.590 --> 00:32:47.760 
+shift And just blend this all nicely
+together once again Right, so now that
+
+607
+00:32:47.770 --> 00:32:51.720 
+we've gone over all of these facial
+features and we now have this next level
+
+608
+00:32:51.730 --> 00:32:54.980 
+of detail Let's take a step back and
+let's have a look at our face once again
+
+609
+00:32:54.990 --> 00:32:59.740 
+And see if we need to adjust any of the
+proportions before we continue on to the
+
+610
+00:32:59.750 --> 00:33:02.300 
+next level
+So let's have a look at the proportions
+
+611
+00:33:02.310 --> 00:33:05.860 
+of our face and let's compare them to
+some of this reference that we have over here
+
+612
+00:33:05.870 --> 00:33:10.980 
+So here i'm looking At this scan over
+here By the way, I can tell some things
+
+613
+00:33:10.990 --> 00:33:11.440 
+are off.
+
+614
+00:33:11.450 --> 00:33:13.900 
+For example, if we look at the ears You
+
+615
+00:33:13.910 --> 00:33:19.300 
+can see our ears are way too high up and
+if we look at the side over here I think
+
+616
+00:33:19.310 --> 00:33:25.560 
+we're also way too far Forward so let's
+get our mask tool and let's mask out
+
+617
+00:33:25.570 --> 00:33:29.780 
+these ears So let's mask this all out
+Let's smooth our mask and let's also
+
+618
+00:33:29.790 --> 00:33:34.400 
+remove some of the mask closer to the
+cheek as we do not want to change the cheek
+
+619
+00:33:34.410 --> 00:33:36.680 
+Let's now press ctrl i to invert our mask.
+
+620
+00:33:36.690 --> 00:33:39.180 
+Let's get the move tool and let's move
+
+621
+00:33:39.190 --> 00:33:45.480 
+these ears back a bit When I line up the
+top of the ear roughly to where the eyes
+
+622
+00:33:45.490 --> 00:33:50.520 
+are and the lower part of the ear roughly
+to about here So let's just also adjust
+
+623
+00:33:50.530 --> 00:33:54.280 
+the rotation a bit as we can see our ears
+are tilted back a bit
+
+624
+00:33:54.290 --> 00:33:57.280 
+So let's rotate that let's then go back
+to our move tool.
+
+625
+00:33:57.290 --> 00:34:02.740 
+Let's move our ears back just a bit more
+So look again at our reference I think we
+
+626
+00:34:02.750 --> 00:34:06.480 
+can move it back just a bit more like so
+now since we're happy with the location
+
+627
+00:34:06.490 --> 00:34:09.780 
+of our ears We can press alt m to clear
+our mask.
+
+628
+00:34:09.790 --> 00:34:13.460 
+So let's have a look over here You know,
+I think this is looking pretty good for
+
+629
+00:34:13.470 --> 00:34:17.440 
+our ears I like to catch these things as
+early as possible Just so we don't have
+
+630
+00:34:17.450 --> 00:34:22.620 
+to go over all of these areas once again
+later to fix these These minor mistakes.
+
+631
+00:34:22.630 --> 00:34:27.300 
+So if we look over here to the jaw, I can
+see me to adjust the angle a bit
+
+632
+00:34:27.310 --> 00:34:34.100 
+So let's move this Up like so now
+catching these these minor irregularities
+
+633
+00:34:34.110 --> 00:34:38.620 
+these minor mistakes early on really
+saves us From a lot of headaches in the future.
+
+634
+00:34:38.630 --> 00:34:43.720 
+So I like to spend a bit of time over
+here Just making these adjustments these corrections
+
+635
+00:34:43.730 --> 00:34:47.260 
+based on the reference that I have for
+example over here I noticed that our nose
+
+636
+00:34:47.270 --> 00:34:48.760 
+is a bit too far down.
+
+637
+00:34:48.770 --> 00:34:51.580 
+So i'm going to get the mask tool once
+
+638
+00:34:51.590 --> 00:34:58.400 
+again Mask out our nose Let's remove some
+of the mask from the nose as well as the
+
+639
+00:34:58.410 --> 00:34:59.460 
+forehead Then invert our mask.
+
+640
+00:34:59.470 --> 00:35:01.140 
+Let's use the move tool once again just
+
+641
+00:35:01.150 --> 00:35:06.420 
+to move our nose up just a bit Like so
+Let's now clear our mask.
+
+642
+00:35:06.430 --> 00:35:07.880 
+Let's have a look at our face.
+
+643
+00:35:07.890 --> 00:35:09.700 
+I think it's looking a lot better already
+
+644
+00:35:09.710 --> 00:35:11.840 
+I think I can move the mouth up by a
+small amount.
+
+645
+00:35:11.850 --> 00:35:14.160 
+So let's get our mask tool.
+
+646
+00:35:14.170 --> 00:35:17.440 
+Let's mask our mouth out Invert our mask.
+
+647
+00:35:17.450 --> 00:35:19.020 
+Let's get the move tool.
+
+648
+00:35:19.030 --> 00:35:21.640 
+Let's just move the mouth up just by a
+
+649
+00:35:21.650 --> 00:35:22.880 
+small amount Let's now clear our mask.
+
+650
+00:35:22.890 --> 00:35:25.220 
+Let's have a look at our mouth I think
+
+651
+00:35:25.230 --> 00:35:29.040 
+it's looking pretty good, but I think we
+can move our mouth a bit further forward
+
+652
+00:35:29.050 --> 00:35:33.460 
+So let's press ctrl z let's get our mask
+again Let's move the mouth forward by
+
+653
+00:35:33.470 --> 00:35:38.240 
+just a small amount the face from the
+side should have a very slight triangular
+
+654
+00:35:38.250 --> 00:35:43.080 
+shape to it And the corner of the mouth
+should more or less line up to where the
+
+655
+00:35:43.090 --> 00:35:44.900 
+eyes are
+So now these adjustments made I want to
+
+656
+00:35:44.910 --> 00:35:50.260 
+focus a bit on the forehead over here I
+think we push this a bit too far forward
+
+657
+00:35:50.270 --> 00:35:56.680 
+and move the brow back a bit move this
+part out a bit Using the grab brush just
+
+658
+00:35:56.690 --> 00:36:02.660 
+to make these small tweaks for example
+over here at the forehead Again, looking
+
+659
+00:36:02.670 --> 00:36:10.960 
+at the reference that you can see on the
+screen trying to make The same shape for
+
+660
+00:36:10.970 --> 00:36:11.780 
+the head now keep in mind.
+
+661
+00:36:11.790 --> 00:36:13.080 
+I'm not trying to copy this.
+
+662
+00:36:13.090 --> 00:36:19.680 
+I'm just trying to find these shapes over
+here, for example how the brow softly
+
+663
+00:36:19.690 --> 00:36:24.520 
+blends into the side of the head And
+looking at the silhouette of the head
+
+664
+00:36:24.530 --> 00:36:28.120 
+again, we're just trying to find these
+elements within the face
+
+665
+00:36:28.130 --> 00:36:31.760 
+We're not trying to copy the exact same
+face from the reference Instead we want
+
+666
+00:36:31.770 --> 00:36:36.140 
+to get these elements and incorporate
+them into our face now the flatten brush.
+
+667
+00:36:36.770 --> 00:36:42.180 
+I'm just gonna Slowly blend the brow into
+the side of the face I'm going to clean
+
+668
+00:36:42.190 --> 00:36:47.760 
+up this area over here on the side I
+don't have to worry about the ears just yet.
+
+669
+00:36:47.770 --> 00:36:51.500 
+We'll take care of that later Just focus
+on the face for now.
+
+670
+00:36:51.510 --> 00:36:52.900 
+I get the crease brush.
+
+671
+00:36:52.910 --> 00:36:55.800 
+I'm trying to create this divide between
+
+672
+00:36:55.810 --> 00:37:00.100 
+the brows Just going to create this small
+crease between the brows the same over
+
+673
+00:37:00.110 --> 00:37:03.660 
+here between the nose and the brow I've
+gone a bit too far.
+
+674
+00:37:03.670 --> 00:37:10.940 
+I get the grab brush and move the nose
+back a bit And move the brow forwards Now
+
+675
+00:37:10.950 --> 00:37:14.060 
+the nose itself we need to do a few
+tweaks later
+
+676
+00:37:14.090 --> 00:37:18.900 
+But for now, we're just focusing on the
+big shapes so we can ignore all of the
+
+677
+00:37:18.910 --> 00:37:20.700 
+incorrect Shapes on the small scale.
+
+678
+00:37:20.710 --> 00:37:23.420 
+We're just focusing on the big shapes for
+
+679
+00:37:23.430 --> 00:37:30.350 
+now Move this Forward as well over here
+Again, we're just trying to get the
+
+680
+00:37:30.360 --> 00:37:35.830 
+overall big shapes in place Before we
+start cleaning up and tidying up all of
+
+681
+00:37:35.840 --> 00:37:39.390 
+these facial features Let's now focus a
+bit on this cheek area over here again
+
+682
+00:37:39.400 --> 00:37:43.790 
+I'm going to use the silhouette of our
+reference use the grab brush just to push
+
+683
+00:37:43.800 --> 00:37:48.690 
+out some of this tissue over here around
+the cheeks I like to zoom out to make
+
+684
+00:37:48.700 --> 00:37:53.550 
+sure I can see the full big picture and
+battle against my tunnel vision
+
+685
+00:37:53.560 --> 00:37:58.870 
+So let's just push these areas in over
+here Just to adjust again the muscles in
+
+686
+00:37:58.880 --> 00:38:00.030 
+the face now talking about muscles.
+
+687
+00:38:00.040 --> 00:38:02.370 
+I want to define again the masseter
+
+688
+00:38:02.380 --> 00:38:06.670 
+muscle over here I'm going to use the
+cloister brush just to fill this area in
+
+689
+00:38:06.680 --> 00:38:10.770 
+over here again just to bring out this
+masseter muscle i'm going to swap back to
+
+690
+00:38:10.780 --> 00:38:16.410 
+the grab brush and just blend these
+shapes together by Raising and lowering
+
+691
+00:38:16.420 --> 00:38:21.350 
+the surface just trying to Think of where
+all this fatty tissue is as the face is
+
+692
+00:38:21.360 --> 00:38:26.210 
+full of this Fatty tissue that basically
+blends all of these muscle shapes
+
+693
+00:38:26.220 --> 00:38:30.030 
+together For example over here in the eye
+corner We can add some of this fatty
+
+694
+00:38:30.040 --> 00:38:36.090 
+tissue as it were to blend the eye socket
+out towards the side of the head I don't
+
+695
+00:38:36.100 --> 00:38:37.330 
+think the fill tool is doing it here.
+
+696
+00:38:37.340 --> 00:38:40.430 
+So i'm going to use the Claystrips brush
+
+697
+00:38:40.440 --> 00:38:44.750 
+just to dig into the Side of the face
+over here around this eye corner.
+
+698
+00:38:44.760 --> 00:38:50.450 
+I'm going to use the flatten brush Just
+to polish these shapes back into one
+
+699
+00:38:50.460 --> 00:38:56.110 
+another just going over these areas over
+here these very short strokes Let's blend
+
+700
+00:38:56.760 --> 00:38:59.970 
+these shapes together Now as we're
+blending it makes it look like we have
+
+701
+00:38:59.980 --> 00:39:05.350 
+this layer of skin this fatty tissue that
+blends Between these somewhat harsher shapes.
+
+702
+00:39:05.360 --> 00:39:09.290 
+So I think with this we've made some good
+adjustments to the structure of the face
+
+703
+00:39:09.300 --> 00:39:13.750 
+Let's now move on to having some more
+details for example to the ear
+
+704
+00:39:13.800 --> 00:39:18.190 
+So, all right, let's now have a look at
+the ears for our character So at the
+
+705
+00:39:18.200 --> 00:39:19.850 
+moment our ears are quite basic.
+
+706
+00:39:19.860 --> 00:39:22.150 
+We still have the base shape over here So
+
+707
+00:39:22.160 --> 00:39:23.370 
+let's start building upon these shapes.
+
+708
+00:39:23.380 --> 00:39:25.570 
+So i'm going to look over to this
+
+709
+00:39:25.580 --> 00:39:28.810 
+reference over here I'm going to create
+these basic shapes now before we start off.
+
+710
+00:39:28.820 --> 00:39:32.050 
+I want to make sure we fix these Areas
+that we have broken up.
+
+711
+00:39:32.060 --> 00:39:36.510 
+So i'm going to get the flatten brush
+I'm, just going to go and clear up this
+
+712
+00:39:36.520 --> 00:39:40.230 
+area over here
+So now with that kind of smoothed out and
+
+713
+00:39:40.240 --> 00:39:41.930 
+flattened let's focus on these base
+shapes over here
+
+714
+00:39:41.940 --> 00:39:46.190 
+So i'm going to get the clay strips brush
+and i'm going to bring out these base shapes
+
+715
+00:39:46.200 --> 00:39:49.190 
+So i'm going to start over here with the
+bottom area over here.
+
+716
+00:39:49.200 --> 00:39:53.670 
+I'm just going to bring out this green
+shape Then we've got this purple shape
+
+717
+00:39:53.680 --> 00:39:58.470 
+going all the way around Create these landmarks.
+
+718
+00:39:58.480 --> 00:39:58.910 
+Okay.
+
+719
+00:39:58.920 --> 00:40:03.370 
+I'm just drawing on top of the shape that
+we have this yellow shape as well, this
+
+720
+00:40:03.380 --> 00:40:11.150 
+is sort of a Y shape And we've got this
+light blue shape that's inside the Ear,
+
+721
+00:40:11.160 --> 00:40:12.470 
+so i'm going to push this down again.
+
+722
+00:40:12.480 --> 00:40:14.390 
+This is just to create these landmarks
+
+723
+00:40:14.400 --> 00:40:16.610 
+We're not trying to get the right shape
+just yet.
+
+724
+00:40:16.620 --> 00:40:21.170 
+We're just creating these Landmarks now
+the final shape is this little red shape
+
+725
+00:40:21.180 --> 00:40:25.010 
+over here So let's just bring it out
+again with the clay strip brush Now as
+
+726
+00:40:25.020 --> 00:40:29.130 
+for the back of the ear, let's have a
+look at our reference we have this
+
+727
+00:40:29.140 --> 00:40:32.830 
+Reference over here of the back of the
+ear Quite a simple shape.
+
+728
+00:40:32.840 --> 00:40:37.730 
+We got the helix over here Now we got
+this cylinder connecting the ear to the
+
+729
+00:40:37.740 --> 00:40:43.210 
+rest of the head So let's now use the
+clay surf brush to separate out the helix
+
+730
+00:40:43.220 --> 00:40:47.750 
+from this cylinder shape connecting to
+the head Now appear to be causing some
+
+731
+00:40:47.760 --> 00:40:49.370 
+artifacts over here
+with the clay surf brush
+
+732
+00:40:49.380 --> 00:40:53.750 
+So i'm going to swap to the crease brush
+and again i'm just going to create the
+
+733
+00:40:53.760 --> 00:40:58.190 
+separation between the helix and this
+cylinder shape so it's going to be Quite
+
+734
+00:40:58.280 --> 00:40:58.470 
+rough over here.
+
+735
+00:40:58.480 --> 00:41:00.530 
+I'm just going to push this in again
+
+736
+00:41:00.540 --> 00:41:07.090 
+trying to get this tube shape for the
+Back of the ear i'm being quite rough
+
+737
+00:41:07.100 --> 00:41:10.630 
+over here But this is fine since we're
+just focusing on trying to get these base
+
+738
+00:41:10.640 --> 00:41:13.830 
+shapes in place So i don't have to worry
+yet about making a mess.
+
+739
+00:41:13.840 --> 00:41:19.730 
+I'm going to use the grab brush just to
+push this Tube shape a bit further into
+
+740
+00:41:19.740 --> 00:41:23.770 
+the ear I think i'm going to use the
+flatten brush now just to polish away
+
+741
+00:41:23.780 --> 00:41:27.390 
+some of this mess that we created Around
+the ear.
+
+742
+00:41:27.400 --> 00:41:29.910 
+So now with that, let's go back to the
+side of the head.
+
+743
+00:41:29.920 --> 00:41:35.770 
+Let's get our grab brush Let's start
+adjusting these shapes to fit more the
+
+744
+00:41:35.780 --> 00:41:39.450 
+ear shape that we're going for We don't
+want our ears to be too big.
+
+745
+00:41:39.460 --> 00:41:43.730 
+So let's adjust this look at the front view
+So let's move our reference over here,
+
+746
+00:41:43.740 --> 00:41:48.930 
+let's use the grab brush just to bring
+out this area over here I want to create
+
+747
+00:41:48.940 --> 00:41:51.430 
+the Ear shape the rough ear shape over here.
+
+748
+00:41:51.440 --> 00:41:53.210 
+I don't want to focus yet on the small
+
+749
+00:41:53.220 --> 00:41:57.310 
+details We just want to bring out the
+rough base shape for the ear
+
+750
+00:41:57.320 --> 00:42:01.710 
+So now that we have our ear roughly in
+the shape that we want to let's start
+
+751
+00:42:01.720 --> 00:42:06.130 
+bringing out some of these shapes I'm
+going to start over here to bring out
+
+752
+00:42:06.140 --> 00:42:10.730 
+this purple shape This is called the
+helix the helix goes all the way around
+
+753
+00:42:10.740 --> 00:42:14.030 
+to the end over here Then we have the
+yellow shape.
+
+754
+00:42:14.040 --> 00:42:18.870 
+This is called the anti helix
+You can see by the shadow that this is
+
+755
+00:42:18.880 --> 00:42:22.110 
+quite deep into the ears I'm going to use
+the grab brush over here just to push
+
+756
+00:42:22.120 --> 00:42:26.350 
+this in We can be quite rough because if
+we distort any part too far we can just
+
+757
+00:42:26.360 --> 00:42:30.050 
+fix it quite easily with the grab brush
+Let's now get the crease brush.
+
+758
+00:42:30.060 --> 00:42:35.750 
+Let's create this clear separation
+between the helix over here and the anti helix
+
+759
+00:42:35.760 --> 00:42:41.150 
+Let's also dedicate a bit of time over
+here to bring back the y shape for the
+
+760
+00:42:41.160 --> 00:42:43.850 
+anti helix
+Let's follow this all the way down to the
+
+761
+00:42:43.860 --> 00:42:49.390 
+bottom over here and we can see that this
+shape continues on Inwards towards the face.
+
+762
+00:42:49.400 --> 00:42:52.950 
+So I just bring this out with the crease
+brush like so
+
+763
+00:42:52.960 --> 00:42:56.750 
+So now that we have these base shapes in
+place Let's have a look at our scan over
+
+764
+00:42:56.760 --> 00:43:00.590 
+here Now we can see over here that this
+inner shape this yellow shape sticks out
+
+765
+00:43:00.600 --> 00:43:04.290 
+by quite a bit
+So let's do the same for our ear I like
+
+766
+00:43:04.300 --> 00:43:08.350 
+this design because I see that the top
+goes inwards a bit more So let's push
+
+767
+00:43:08.360 --> 00:43:12.750 
+that in and what we basically have is
+this outer shape which creates this very
+
+768
+00:43:12.760 --> 00:43:18.270 
+familiar ear shape And we have this anti
+helix this inner shape that creates this
+
+769
+00:43:18.280 --> 00:43:20.690 
+s shape
+So now that i'm happy with this base
+
+770
+00:43:20.700 --> 00:43:25.070 
+shape i'm going to go over these areas
+with the clay strips brush Just to fill
+
+771
+00:43:25.080 --> 00:43:29.970 
+in some of these cavities just to add a
+bit more volume to some of these parts of
+
+772
+00:43:29.980 --> 00:43:31.810 
+the ear
+Now once i'm happy with these shapes i'm
+
+773
+00:43:31.820 --> 00:43:37.330 
+going to hold shift and smooth these
+areas to blur them back into one another
+
+774
+00:43:37.340 --> 00:43:41.350 
+Now this might seem counterproductive
+But in fact this helps to create this
+
+775
+00:43:41.360 --> 00:43:45.770 
+nice flow between these shapes And I can
+then simply use the crease brush just to
+
+776
+00:43:45.780 --> 00:43:50.450 
+bring these details and these forms back
+into these now flowing shapes
+
+777
+00:43:50.460 --> 00:43:52.410 
+So just going over these areas over here.
+
+778
+00:43:52.420 --> 00:43:55.730 
+Just pushing it in this crease brush
+
+779
+00:43:55.740 --> 00:44:01.410 
+looking at the reference comparing The
+shape that we have over here with the
+
+780
+00:44:01.420 --> 00:44:08.070 
+reference i'm going to push in a bit the
+shape of the helix here pushing in the
+
+781
+00:44:08.080 --> 00:44:12.310 
+This indentation that we have on the
+inside of the helix We separate it out
+
+782
+00:44:12.320 --> 00:44:15.890 
+from the anti helix area is quite
+separated in our reference.
+
+783
+00:44:15.900 --> 00:44:20.530 
+So let's create this Larger separation
+let's continue this separation down
+
+784
+00:44:20.540 --> 00:44:24.610 
+between the two helices bring it all the
+way down towards the earlobe
+
+785
+00:44:24.620 --> 00:44:28.650 
+And I get the grab brush just to adjust
+the shape of the earlobe i'm going to
+
+786
+00:44:28.660 --> 00:44:33.070 
+bring it out a bit So it's starting to
+look pretty good for our ear already Now
+
+787
+00:44:33.080 --> 00:44:35.970 
+before calling it a day Let's make sure
+we look at different angles when it comes
+
+788
+00:44:35.980 --> 00:44:37.070 
+to our reference Over here.
+
+789
+00:44:37.080 --> 00:44:39.690 
+We can already see me to bring out a bit
+
+790
+00:44:39.700 --> 00:44:44.530 
+more of this shape within the anti helix
+So let's push out this area over here.
+
+791
+00:44:44.540 --> 00:44:49.550 
+Let's now hold shift to blend that back
+in I'm going to push in this upper area
+
+792
+00:44:49.560 --> 00:44:54.470 
+over here Let's just create this Y shape
+you can also notice we can create more of
+
+793
+00:44:54.480 --> 00:44:59.150 
+a separation between the anti helix and
+this inner part of the ear We also want
+
+794
+00:44:59.160 --> 00:45:02.990 
+to bring out this interesting edge that
+we can see along the helix.
+
+795
+00:45:03.000 --> 00:45:08.950 
+I'm just bringing out This shape over
+here along the helix This really
+
+796
+00:45:08.960 --> 00:45:13.270 
+separates the helix out from the anti
+helix and over here at the back I'm going
+
+797
+00:45:13.280 --> 00:45:18.970 
+to focus on this area over here just to
+separate out the The back of the helix
+
+798
+00:45:18.980 --> 00:45:23.090 
+from this tubular shape, so let's just
+smooth this out over here
+
+799
+00:45:23.100 --> 00:45:28.030 
+Use the crease brush again to redefine
+these shapes Now back to the side of the
+
+800
+00:45:28.120 --> 00:45:28.570 
+ear over here.
+
+801
+00:45:28.580 --> 00:45:30.550 
+We can see this interesting shape in our
+
+802
+00:45:30.560 --> 00:45:36.830 
+reference We can see this indentation as
+the helix enters the ear as well as this
+
+803
+00:45:36.840 --> 00:45:41.090 
+crease going down the side of the ear
+So let's create this first crease over here.
+
+804
+00:45:41.100 --> 00:45:44.610 
+Let's also create this crease on the side
+It's just the angle.
+
+805
+00:45:44.620 --> 00:45:47.850 
+Let's push it in
+Let's now get the flatten brush.
+
+806
+00:45:47.860 --> 00:45:52.950 
+Let's just blend this crease into the
+face Same for this top crease over here
+
+807
+00:45:52.960 --> 00:45:56.930 
+Just blend that back into the face Let's
+now go over this whole area with the
+
+808
+00:45:56.940 --> 00:46:00.850 
+flatten brush just to reduce the
+intensity of this crease
+
+809
+00:46:00.860 --> 00:46:05.630 
+So now that we added the ears to our
+head, let's focus on this last bit over here.
+
+810
+00:46:05.640 --> 00:46:08.230 
+Let's focus on the neck
+So the first thing that stands out is
+
+811
+00:46:08.240 --> 00:46:11.910 
+that our neck is too far to the back over
+here It looks like our character is
+
+812
+00:46:11.920 --> 00:46:13.750 
+pushing his head forward.
+
+813
+00:46:13.760 --> 00:46:16.330 
+So let's make this neck a bit more straight
+
+814
+00:46:16.340 --> 00:46:20.010 
+Now for this we can use the same
+technique that we used for the ears mouth
+
+815
+00:46:20.020 --> 00:46:25.430 
+and nose Let's get the mask tool and
+start masking out the neck over here
+
+816
+00:46:25.440 --> 00:46:31.790 
+Let's now remove from the mask the jaw
+and head Let's now smooth the mask again
+
+817
+00:46:31.800 --> 00:46:33.230 
+Let's now invert the mask.
+
+818
+00:46:33.240 --> 00:46:37.330 
+Let's use the move tools to move our neck
+
+819
+00:46:37.340 --> 00:46:38.970 
+Forwards, so let's move our neck far enough.
+
+820
+00:46:38.980 --> 00:46:41.510 
+So it doesn't look like our character is
+
+821
+00:46:41.520 --> 00:46:45.350 
+leaning forwards with its head
+So now with that sorted let's focus on
+
+822
+00:46:45.360 --> 00:46:50.310 
+smoothing the surface over here We still
+have a lot of rough surface from when we
+
+823
+00:46:50.500 --> 00:46:51.670 
+remeshed the model.
+
+824
+00:46:51.680 --> 00:46:54.810 
+So let's clean up The area over here.
+
+825
+00:46:54.820 --> 00:46:59.550 
+So now that we have smoothed the surface,
+let's bring out this adam's apple This is
+
+826
+00:46:59.560 --> 00:47:01.650 
+a real masculine feature of the neck.
+
+827
+00:47:01.660 --> 00:47:04.150 
+So let's bring this out.
+
+828
+00:47:04.160 --> 00:47:06.890 
+It's about Here a bit over the middle of
+the neck.
+
+829
+00:47:06.900 --> 00:47:10.230 
+So let's bring this out with the grab
+brush again I'm not worried about the
+
+830
+00:47:10.240 --> 00:47:10.930 
+correct shape just yet.
+
+831
+00:47:10.940 --> 00:47:13.070 
+We're just bringing out these landmarks
+
+832
+00:47:13.080 --> 00:47:15.390 
+Now for the rest of the neck, let's bring
+out these muscles
+
+833
+00:47:15.400 --> 00:47:18.690 
+So let's use the crease brush just to
+bring out these muscles.
+
+834
+00:47:18.700 --> 00:47:22.790 
+Now we're getting this nasty dot effect
+So to fix this let's go to our stroke
+
+835
+00:47:22.800 --> 00:47:24.230 
+settings and let's reduce the spacing.
+
+836
+00:47:24.240 --> 00:47:25.890 
+Let's set it to five percent
+
+837
+00:47:25.900 --> 00:47:28.730 
+So we're going to disable the adjust
+strength feature.
+
+838
+00:47:28.740 --> 00:47:33.030 
+I'm going to set the strength a bit lower
+So if we now create a stroke, you can see
+
+839
+00:47:33.040 --> 00:47:37.790 
+we're getting a smoother effect since we
+now have More steps in our stroke.
+
+840
+00:47:37.800 --> 00:47:41.490 
+So let's now use the crease brush just to
+bring out these shapes of these muscles
+
+841
+00:47:41.500 --> 00:47:43.850 
+So i'm going to bring out these muscles
+over here.
+
+842
+00:47:43.860 --> 00:47:45.610 
+This is the sternocleidomastoid.
+
+843
+00:47:45.620 --> 00:47:47.990 
+I'm going to bring this out over here You
+
+844
+00:47:48.000 --> 00:47:52.590 
+see again the crease brush Just to define
+these landmarks again.
+
+845
+00:47:52.600 --> 00:47:53.530 
+We're not concerned yet.
+
+846
+00:47:53.540 --> 00:47:55.410 
+We're putting them in the correct space
+
+847
+00:47:55.420 --> 00:48:00.190 
+We're just bringing out these forms at
+the bottom over here the muscles separate
+
+848
+00:48:00.200 --> 00:48:04.130 
+So let's create this separation over here
+with the crease brush Let's push this out.
+
+849
+00:48:04.140 --> 00:48:06.370 
+And now these landmarks we can switch to
+our grab brush.
+
+850
+00:48:06.380 --> 00:48:11.930 
+We can just adjust the shape of this
+muscle Now one more thing that helps me
+
+851
+00:48:11.940 --> 00:48:15.610 
+with these muscle shapes is using the
+clay strip brush and going along the
+
+852
+00:48:15.620 --> 00:48:18.310 
+grain of the muscle Now to illustrate
+this a bit better.
+
+853
+00:48:18.320 --> 00:48:22.130 
+Let's increase the strength of our brush
+over here Let's go along the grain of
+
+854
+00:48:22.140 --> 00:48:24.630 
+this muscle
+And as you can see we create these
+
+855
+00:48:24.640 --> 00:48:29.530 
+streaks along which really help us read
+the shape and flow of this muscle Let's
+
+856
+00:48:29.540 --> 00:48:32.090 
+now also bring out the clavicle
+So i'm going to use the grab brush just
+
+857
+00:48:32.100 --> 00:48:36.690 
+to push this back a bit towards the neck
+I'm going to use the clay strip brush
+
+858
+00:48:36.700 --> 00:48:40.230 
+once again And before we continue with
+these muscles, I quickly want to bring
+
+859
+00:48:40.240 --> 00:48:42.870 
+out the clavicle
+So this is a good landmark to have so i'm
+
+860
+00:48:42.880 --> 00:48:46.210 
+going to quickly sketch out a rough shape
+for this clavicle
+
+861
+00:48:46.220 --> 00:48:51.750 
+So we have this big piece over here and
+we have this smaller longer shape towards
+
+862
+00:48:51.760 --> 00:48:53.430 
+the shoulder It forms a sort of s shape.
+
+863
+00:48:53.440 --> 00:48:56.210 
+So let's use our grab brush just to Push
+
+864
+00:48:56.220 --> 00:49:01.690 
+this into this s shape Just like that we
+have our landmark Let's now go back to
+
+865
+00:49:01.700 --> 00:49:06.190 
+our clay strip brush and start bringing
+out these these forms these shapes along
+
+866
+00:49:06.200 --> 00:49:07.890 
+the muscle
+So i'm going to follow the grain and that
+
+867
+00:49:07.900 --> 00:49:09.250 
+can be quite rough while i'm at it.
+
+868
+00:49:09.260 --> 00:49:12.250 
+We're going to create these Sort of
+
+869
+00:49:12.260 --> 00:49:16.670 
+muscle fibers making these long strokes
+And from here I can use the grab brush
+
+870
+00:49:16.680 --> 00:49:20.610 
+just to adjust the shape of the muscle
+And due to the fact that we have these
+
+871
+00:49:20.620 --> 00:49:26.690 
+these streaks you can easily see the flow
+of these shapes Let's now separate a bit
+
+872
+00:49:26.700 --> 00:49:30.250 
+the clavicle heads over here I think I'm
+going to use the clay strips brush for this.
+
+873
+00:49:30.260 --> 00:49:35.950 
+I'm going to push this in over here I'm
+going to use the claystrips brush just to
+
+874
+00:49:35.960 --> 00:49:40.890 
+connect the muscles to the clavicle over
+here And as for the adam's apple, we want
+
+875
+00:49:40.900 --> 00:49:44.530 
+to create this sort of v -shape
+In fact, if we look at our reference, we
+
+876
+00:49:44.540 --> 00:49:48.690 
+can see this v -shape over here
+So I use the crease brush just to bring
+
+877
+00:49:48.700 --> 00:49:49.650 
+out this v -shape.
+
+878
+00:49:49.660 --> 00:49:52.490 
+I'm going to use the grab brush Just to
+
+879
+00:49:52.500 --> 00:49:57.930 
+bring the tip out a bit And then the base
+back into the neck I'm going to use the
+
+880
+00:49:57.940 --> 00:49:58.510 
+claystrips brush once again.
+
+881
+00:49:58.520 --> 00:50:00.710 
+I'm just going to bring out some more
+
+882
+00:50:00.720 --> 00:50:06.710 
+shapes around this inner section of the
+neck I'm going to bring out this area
+
+883
+00:50:06.720 --> 00:50:13.190 
+over here Just alongside the adam's apple
+Push in just above Along the side of the
+
+884
+00:50:13.200 --> 00:50:16.110 
+adam's apple just to really emphasize
+this v -shape.
+
+885
+00:50:16.120 --> 00:50:21.650 
+Now I want to connect this up to the chin
+So let's bring out some details along the
+
+886
+00:50:22.470 --> 00:50:25.750 
+chin over here And connect this to the
+neck over here.
+
+887
+00:50:25.760 --> 00:50:30.510 
+So this creates this natural line along
+the neck over here And then from here we
+
+888
+00:50:30.520 --> 00:50:36.390 
+can start blending these shapes together
+again using the claystrips brush Just to
+
+889
+00:50:37.140 --> 00:50:39.350 
+blend these forms Now over here at the back.
+
+890
+00:50:39.360 --> 00:50:41.190 
+Let's continue with these muscle streaks
+
+891
+00:50:41.200 --> 00:50:45.530 
+So I'm going to go over these areas with
+the claystrips brush again thinking of
+
+892
+00:50:45.540 --> 00:50:49.390 
+the shape of the muscles
+So for example here we have the trapezius
+
+893
+00:50:49.400 --> 00:50:54.150 
+muscle So let's just bring that out again
+following the grain of this muscle with
+
+894
+00:50:54.160 --> 00:50:58.270 
+our claystrips brush And also like to
+create this bump at the base of the neck
+
+895
+00:50:58.280 --> 00:51:02.570 
+where the bones of the neck sit over here
+Now for the trapezius, let's continue
+
+896
+00:51:02.580 --> 00:51:04.110 
+dragging out these fibers over here.
+
+897
+00:51:04.120 --> 00:51:06.290 
+This is a very big muscle.
+
+898
+00:51:06.300 --> 00:51:11.750 
+So let's bring out all of these Fibers
+again, this will help us later to push
+
+899
+00:51:11.760 --> 00:51:17.230 
+this all into shape now the grab brush
+I'm just going to adjust the the shape of
+
+900
+00:51:17.280 --> 00:51:23.410 
+these muscles Again, now that we have the
+flow Drawn out it's easier to find the
+
+901
+00:51:23.420 --> 00:51:27.750 
+shape for these muscles Now this stage is
+important to use a reference just so you
+
+902
+00:51:27.760 --> 00:51:32.510 
+can see where these muscles go And what
+shape they have and since we have this
+
+903
+00:51:32.520 --> 00:51:36.630 
+streak pattern it's easier to follow the
+flow of these muscles
+
+904
+00:51:36.640 --> 00:51:40.790 
+Now once i'm happy with these shapes i'm
+going to use the flatten brush just to
+
+905
+00:51:40.800 --> 00:51:44.890 
+blend again these shapes all nicely
+together Now with that i'm going to use
+
+906
+00:51:44.900 --> 00:51:49.550 
+the smooth brush just to finalize the
+blending and create a nice smooth surface
+
+907
+00:51:49.560 --> 00:51:53.390 
+Now we lost a lot of detail by blending
+these surfaces together So i'm going to
+
+908
+00:51:53.400 --> 00:51:57.890 
+use the crease brush just to bring some
+details back into these shapes For
+
+909
+00:51:58.000 --> 00:51:58.410 
+example over here.
+
+910
+00:51:58.420 --> 00:52:01.490 
+Let's bring out the sternocleidomastoid
+
+911
+00:52:01.500 --> 00:52:07.030 
+Just bring that all the way down over
+here Let's just push this in with the
+
+912
+00:52:07.040 --> 00:52:10.450 
+crease brush Let's also separate out a
+bit more of the clavicle shape So i'm
+
+913
+00:52:10.460 --> 00:52:14.270 
+going to push this in over here And we
+want to create this hint of a muscle
+
+914
+00:52:14.380 --> 00:52:14.970 
+below the surface.
+
+915
+00:52:14.980 --> 00:52:16.950 
+So i'm creating this crease And i'm
+
+916
+00:52:16.960 --> 00:52:20.730 
+smoothing it out again I'm not going to
+create a crease and redefine every single
+
+917
+00:52:20.740 --> 00:52:23.310 
+muscle since we don't want to bring all
+of them out again Keep in mind.
+
+918
+00:52:23.320 --> 00:52:27.850 
+We have this layer of fat and skin on top
+of these muscles So some of these muscles
+
+919
+00:52:27.860 --> 00:52:30.550 
+we won't see as clearly defined as others.
+
+920
+00:52:30.560 --> 00:52:33.850 
+I think something like this will do for
+
+921
+00:52:33.860 --> 00:52:36.570 
+the neck So this is now a good moment
+once again to step back.
+
+922
+00:52:36.580 --> 00:52:41.010 
+Let's have a look at these proportions
+We can use the grab brush just to adjust
+
+923
+00:52:41.020 --> 00:52:45.850 
+some of the proportions of the neck to
+fit better to our face so for example I'm
+
+924
+00:52:45.860 --> 00:52:47.350 
+gonna widen the neck by quite a bit.
+
+925
+00:52:47.360 --> 00:52:49.790 
+I want our character to come across as a
+
+926
+00:52:49.800 --> 00:52:52.730 
+strong character So i'm gonna broaden his
+neck by quite a bit.
+
+927
+00:52:52.740 --> 00:52:57.110 
+So i'm gonna raise a bit his trapezius
+So we now move the camera to the front view.
+
+928
+00:52:57.120 --> 00:53:01.070 
+We can already see our character's
+looking quite a bit stronger So let's
+
+929
+00:53:01.080 --> 00:53:02.590 
+broaden his neck a bit more.
+
+930
+00:53:02.600 --> 00:53:04.530 
+Let's also increase the size of his
+
+931
+00:53:04.540 --> 00:53:08.650 
+masseter muscle So this cheek muscle also
+makes our character look a lot stronger
+
+932
+00:53:08.660 --> 00:53:12.570 
+So by making these small tweaks with the
+grab brush we're starting to bring out
+
+933
+00:53:12.580 --> 00:53:17.350 
+the personality of our character
+So after spending a bit of time tweaking
+
+934
+00:53:17.360 --> 00:53:21.770 
+the face and neck with the grab brush
+i've gotten to this result
+
+935
+00:53:21.780 --> 00:53:25.850 
+So within roughly an hour, we've gone
+from a uv sphere to this head Now have
+
+936
+00:53:25.860 --> 00:53:29.770 
+you been with me this entire time this
+entire hour of a video?
+
+937
+00:53:29.780 --> 00:53:33.730 
+Hats off to you Thank you very much for
+putting up with me for this entire hour
+
+938
+00:53:33.740 --> 00:53:37.490 
+If you want to see more of this kind of
+content do leave a comment below this
+
+939
+00:53:37.500 --> 00:53:40.310 
+really helps us out a lot And if this
+video gets enough likes we might even
+
+940
+00:53:40.320 --> 00:53:44.030 
+make a second video
+We're gonna bring this head to the next level
+
+941
+00:53:44.040 --> 00:53:45.610 
+Now
+if you're interested in the model that we
+
+942
+00:53:45.620 --> 00:53:49.470 
+sculpted in this video head over to
+cgboost .com over there under resources
+
+943
+00:53:49.480 --> 00:53:53.810 
+You'll be able to download both this
+model as well as all the resources used
+
+944
+00:53:53.820 --> 00:53:57.230 
+within this video
+While you're there check out the master 3
+
+945
+00:53:57.240 --> 00:53:59.410 
+sculpting in blender course made by Zach.
+
+946
+00:53:59.420 --> 00:54:01.730 
+This is an amazing course It will really
+
+947
+00:54:01.740 --> 00:54:06.530 
+help you level up your sculpting skills
+in no time now Once again, thank you guys
+
+948
+00:54:06.540 --> 00:54:06.790 
+for watching.
+
+949
+00:54:06.800 --> 00:54:07.950 
+That's all for me.
+
+950
+00:54:07.960 --> 00:54:08.690 
+See you in the next video
+
